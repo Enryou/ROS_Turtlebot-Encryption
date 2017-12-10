@@ -1,0 +1,64 @@
+roslaunch turtlebot_gazebo turtlebot_world.launch
+
+roslaunch turtlebot_teleop keyboard_teleop.launch
+
+cd ~/Desktop/kinetic_turtlebot
+./test_turtlebot_install.sh
+
+
+
+( http://sauravag.com/2016/10/how-to-setup-turtlebot-simulator-in-ros-with-gazebo/ ):
+
+First Simulation: Driving robot around and seeing kinect depth image.
+
+    Open 4 terminal tabs.
+
+    In terminal 1:$roscore
+
+    In terminal 2:$roslaunch turtlebot_gazebo turtlebot_world.launch
+
+    In terminal 3:$roslaunch turtlebot_rviz_launchers view_robot.launch
+
+    Instructions on how to change rviz settings for turtlebot sim are here
+	(http://learn.turtlebot.com/2015/02/03/3/ ).
+	Once you read through the instructions, you will be able to see the kinect depth.
+
+    In terminal 4:$roslaunch turtlebot_teleop keyboard_teleop.launch
+
+    Drive around by using your keyboard. Detailed instructions here
+	( http://learn.turtlebot.com/2015/02/03/5/ ).
+
+Second Simulation: Mapping an environment by driving around it.
+
+    Open 5 terminal tabs.
+
+    In terminal 1:$roscore
+
+    In terminal 2:$roslaunch turtlebot_gazebo turtlebot_world.launch
+
+    In terminal 3:$roslaunch turtlebot_gazebo gmapping_demo.launch
+
+    In terminal 4:$roslaunch turtlebot_rviz_launchers view_navigation.launch
+
+    Follow instructions here ( http://learn.turtlebot.com/2015/02/03/8/ ) to change cost map.
+
+    In terminal 5:$roslaunch turtlebot_teleop keyboard_teleop.launch
+
+Drive around the robot to build your map. Now to save the map.
+
+    Create a directory $mkdir ~/turtlebot_custom_maps
+    $rosrun map_server map_saver -f ~/turtlebot_custom_maps/tutorial
+
+Now you may interrupt all processes except roscore.
+
+Third Simulation: Autonomous driving
+
+    In one terminal run:$roslaunch turtlebot_gazebo turtlebot_world.launch
+    In another terminal run:
+    $roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/home/USERNAME/turtlebot_custom_maps/tutorial.yaml
+
+    In another terminal run:
+    $roslaunch turtlebot_rviz_launchers view_navigation.launch
+
+    Send a navigation goal to the robot by clicking on 2D Nav Goal button in rviz(in the top bar).
+

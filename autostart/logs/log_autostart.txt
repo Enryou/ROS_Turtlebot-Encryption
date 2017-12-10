@@ -1,0 +1,3593 @@
+
+
+
+
+#############################################
+Running start_roslaunch.sh
+mercredi 22 novembre 2017, 16:45:48 (UTC+0100)
+#############################################
+
+Logs:
+./start_roslaunch.sh: line 19: /home/catkin_ws/devel/setup.bash: No such file or directory
+
+
+
+
+#############################################
+Running start_roslaunch.sh
+mercredi 22 novembre 2017, 16:46:31 (UTC+0100)
+#############################################
+
+Logs:
+[31mUnable to contact my own server at [http://146.0.189.84:45459/].
+This usually means that the network is not configured properly.
+
+A common cause is that the machine cannot ping itself.  Please check
+for errors by running:
+
+	ping 146.0.189.84
+
+For more tips, please see
+
+	http://www.ros.org/wiki/ROS/NetworkSetup
+[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/faolin/.ros/log/a20862de-cf9c-11e7-a92e-f82819695d7b/roslaunch-Enryou-6659.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+
+
+
+
+#############################################
+Running start_roslaunch.sh
+mercredi 22 novembre 2017, 16:51:47 (UTC+0100)
+#############################################
+
+Logs:
+
+
+
+
+#############################################
+Running start_roslaunch.sh
+mercredi 22 novembre 2017, 16:53:07 (UTC+0100)
+#############################################
+
+Logs:
+... logging to /home/faolin/.ros/log/4262848a-cf9d-11e7-a92e-f82819695d7b/roslaunch-Enryou-7290.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/bin/roscore", line 70, in <module>
+    roslaunch.main(['roscore', '--core'] + sys.argv[1:])
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 307, in main
+    p.start()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 268, in start
+    self._start_infrastructure()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 226, in _start_infrastructure
+    self._start_server()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 177, in _start_server
+    self.server.start()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/server.py", line 376, in start
+    code, msg, val = ServerProxy(self.uri).get_pid()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 566, in create_connection
+    sock.connect(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+KeyboardInterrupt
+
+
+
+
+#############################################
+Running start_roslaunch.sh
+mercredi 22 novembre 2017, 17:13:05 (UTC+0100)
+#############################################
+
+Logs:
+... logging to /home/faolin/.ros/log/0a548afe-cfa0-11e7-a92e-f82819695d7b/roslaunch-Enryou-9373.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://10.164.8.210:33671/[0m
+ros_comm version 1.12.7
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [9384][0m
+[1mROS_MASTER_URI=http://10.164.8.210:11311/[0m
+]2;roscore http://10.164.8.210:11311/
+[1msetting /run_id to 0a548afe-cfa0-11e7-a92e-f82819695d7b[0m
+[1mprocess[rosout-1]: started with pid [9397][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+
+
+
+
+#############################################
+Running start_roslaunch.sh
+mercredi 22 novembre 2017, 17:17:17 (UTC+0100)
+#############################################
+
+Logs:
+... logging to /home/faolin/.ros/log/a0c93e44-cfa0-11e7-a92e-f82819695d7b/roslaunch-Enryou-9729.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://10.164.8.210:43079/[0m
+ros_comm version 1.12.7
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [9740][0m
+[1mROS_MASTER_URI=http://10.164.8.210:11311/[0m
+]2;roscore http://10.164.8.210:11311/
+[1msetting /run_id to a0c93e44-cfa0-11e7-a92e-f82819695d7b[0m
+[1mprocess[rosout-1]: started with pid [9753][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+
+
+
+
+#############################################
+Running start_roslaunch.sh
+dimanche 3 décembre 2017, 12:15:05 (UTC+0100)
+#############################################
+
+Logs:
+Waiting for ROS:roscore
+Waiting for ROS:roscore
+Waiting for ROS:roscore
+Waiting for ROS:roscore
+Waiting for ROS:roscore
+Waiting for ROS:roscore
+Waiting for ROS:roscore
+Waiting for ROS:roscore
+Waiting for ROS:roscore
+Waiting for ROS:roscore
+
+
+
+
+#############################################
+Running start_roslaunch.sh
+dimanche 3 décembre 2017, 12:19:13 (UTC+0100)
+#############################################
+
+Logs:
+... logging to /home/faolin/.ros/log/cfc9b9d4-d81b-11e7-b143-9829a6306d47/roslaunch-Enryou-6027.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://192.168.178.62:44959/[0m
+ros_comm version 1.12.7
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [6038][0m
+[1mROS_MASTER_URI=http://192.168.178.62:11311/[0m
+]2;roscore http://192.168.178.62:11311/
+[1msetting /run_id to cfc9b9d4-d81b-11e7-b143-9829a6306d47[0m
+[1mprocess[rosout-1]: started with pid [6051][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/share/xacro/xacro.py", line 55, in <module>
+    import xacro
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/xacro/__init__.py", line 35, in <module>
+    import glob
+  File "/home/faolin/anaconda3/lib/python3.6/glob.py", line 4, in <module>
+    import re
+ModuleNotFoundError: No module named 're'
+[31mwhile processing /opt/ros/kinetic/share/turtlebot_gazebo/launch/includes/kobuki.launch.xml:
+Invalid <param> tag: Cannot load command parameter [robot_description]: command [/opt/ros/kinetic/share/xacro/xacro.py '/opt/ros/kinetic/share/turtlebot_description/robots/kobuki_hexagons_asus_xtion_pro.urdf.xacro'] returned with code [1]. 
+
+Param xml is <param command="$(arg urdf_file)" name="robot_description"/>[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/faolin/.ros/log/24db9852-d81c-11e7-b143-9829a6306d47/roslaunch-Enryou-6109.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch
+
+
+
+
+#############################################
+Running start_roslaunch.sh
+dimanche 3 décembre 2017, 12:29:46 (UTC+0100)
+#############################################
+
+Logs:
+... logging to /home/faolin/.ros/log/49109c62-d81d-11e7-b143-9829a6306d47/roslaunch-Enryou-6630.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://192.168.178.62:43979/[0m
+ros_comm version 1.12.7
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [6641][0m
+[1mROS_MASTER_URI=http://192.168.178.62:11311/[0m
+]2;roscore http://192.168.178.62:11311/
+[1msetting /run_id to 49109c62-d81d-11e7-b143-9829a6306d47[0m
+[1mprocess[rosout-1]: started with pid [6654][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+pgrep: only one pattern can be provided
+Try `pgrep --help' for more information.
+Waiting for ROS:roscore
+
+
+
+
+#############################################
+Running autostart.sh
+dimanche 3 décembre 2017, 12:57:20 (UTC+0100)
+#############################################
+
+Logs:
+
+
+
+
+#############################################
+Running autostart.sh
+dimanche 3 décembre 2017, 13:24:49 (UTC+0100)
+#############################################
+
+Logs:
+bash: /home/user/autostart/roscore.sh: No such file or directory
+
+
+
+
+#############################################
+Running autostart.sh
+dimanche 3 décembre 2017, 13:33:00 (UTC+0100)
+#############################################
+
+Logs:
+... logging to /home/faolin/.ros/log/1e37d146-d826-11e7-b143-9829a6306d47/roslaunch-Enryou-15448.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://192.168.178.62:37973/[0m
+ros_comm version 1.12.7
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [15459][0m
+[1mROS_MASTER_URI=http://192.168.178.62:11311/[0m
+]2;roscore http://192.168.178.62:11311/
+[1msetting /run_id to 1e37d146-d826-11e7-b143-9829a6306d47[0m
+[1mprocess[rosout-1]: started with pid [15472][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+
+
+
+
+#############################################
+Running autostart.sh
+lundi 4 décembre 2017, 13:51:08 (UTC+0100)
+#############################################
+
+Logs:
+warning: xacro: Traditional processing is deprecated. Switch to --inorder processing!
+To check for compatibility of your document, use option --check-order.
+For more infos, see http://wiki.ros.org/xacro#Processing_Order
+warning: xacro.py is deprecated; please use xacro instead
+[31m[ERROR] [1512391882.411403510]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+[31m[ERROR] [1512391882.440578365]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+... logging to /home/faolin/.ros/log/d1377a5a-d8f1-11e7-8bb0-f82819695d7b/roslaunch-Enryou-12095.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch
+[1mstarted roslaunch server http://10.164.8.225:34979/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /amcl/base_frame_id: base_footprint
+ * /amcl/global_frame_id: map
+ * /amcl/gui_publish_rate: 10.0
+ * /amcl/initial_pose_a: 0.0
+ * /amcl/initial_pose_x: 0.0
+ * /amcl/initial_pose_y: 0.0
+ * /amcl/kld_err: 0.05
+ * /amcl/kld_z: 0.99
+ * /amcl/laser_lambda_short: 0.1
+ * /amcl/laser_likelihood_max_dist: 2.0
+ * /amcl/laser_max_beams: 60
+ * /amcl/laser_max_range: 12.0
+ * /amcl/laser_model_type: likelihood_field
+ * /amcl/laser_sigma_hit: 0.2
+ * /amcl/laser_z_hit: 0.5
+ * /amcl/laser_z_max: 0.05
+ * /amcl/laser_z_rand: 0.5
+ * /amcl/laser_z_short: 0.05
+ * /amcl/max_particles: 2000
+ * /amcl/min_particles: 500
+ * /amcl/odom_alpha1: 0.2
+ * /amcl/odom_alpha2: 0.2
+ * /amcl/odom_alpha3: 0.2
+ * /amcl/odom_alpha4: 0.2
+ * /amcl/odom_alpha5: 0.1
+ * /amcl/odom_frame_id: odom
+ * /amcl/odom_model_type: diff
+ * /amcl/recovery_alpha_fast: 0.0
+ * /amcl/recovery_alpha_slow: 0.0
+ * /amcl/resample_interval: 1
+ * /amcl/transform_tolerance: 1.0
+ * /amcl/update_min_a: 0.2
+ * /amcl/update_min_d: 0.25
+ * /amcl/use_map_topic: False
+ * /move_base/DWAPlannerROS/acc_lim_theta: 2.0
+ * /move_base/DWAPlannerROS/acc_lim_x: 1.0
+ * /move_base/DWAPlannerROS/acc_lim_y: 0.0
+ * /move_base/DWAPlannerROS/forward_point_distance: 0.325
+ * /move_base/DWAPlannerROS/global_frame_id: odom
+ * /move_base/DWAPlannerROS/goal_distance_bias: 24.0
+ * /move_base/DWAPlannerROS/max_rot_vel: 5.0
+ * /move_base/DWAPlannerROS/max_scaling_factor: 0.2
+ * /move_base/DWAPlannerROS/max_trans_vel: 0.5
+ * /move_base/DWAPlannerROS/max_vel_x: 0.5
+ * /move_base/DWAPlannerROS/max_vel_y: 0.0
+ * /move_base/DWAPlannerROS/min_rot_vel: 0.4
+ * /move_base/DWAPlannerROS/min_trans_vel: 0.1
+ * /move_base/DWAPlannerROS/min_vel_x: 0.0
+ * /move_base/DWAPlannerROS/min_vel_y: 0.0
+ * /move_base/DWAPlannerROS/occdist_scale: 0.5
+ * /move_base/DWAPlannerROS/oscillation_reset_dist: 0.05
+ * /move_base/DWAPlannerROS/path_distance_bias: 64.0
+ * /move_base/DWAPlannerROS/publish_cost_grid_pc: True
+ * /move_base/DWAPlannerROS/publish_traj_pc: True
+ * /move_base/DWAPlannerROS/rot_stopped_vel: 0.4
+ * /move_base/DWAPlannerROS/scaling_speed: 0.25
+ * /move_base/DWAPlannerROS/sim_time: 1.0
+ * /move_base/DWAPlannerROS/stop_time_buffer: 0.2
+ * /move_base/DWAPlannerROS/trans_stopped_vel: 0.1
+ * /move_base/DWAPlannerROS/vtheta_samples: 20
+ * /move_base/DWAPlannerROS/vx_samples: 6
+ * /move_base/DWAPlannerROS/vy_samples: 1
+ * /move_base/DWAPlannerROS/xy_goal_tolerance: 0.15
+ * /move_base/DWAPlannerROS/yaw_goal_tolerance: 0.3
+ * /move_base/GlobalPlanner/allow_unknown: True
+ * /move_base/GlobalPlanner/cost_factor: 3.0
+ * /move_base/GlobalPlanner/default_tolerance: 0.0
+ * /move_base/GlobalPlanner/lethal_cost: 253
+ * /move_base/GlobalPlanner/neutral_cost: 50
+ * /move_base/GlobalPlanner/old_navfn_behavior: False
+ * /move_base/GlobalPlanner/planner_costmap_publish_frequency: 0.0
+ * /move_base/GlobalPlanner/planner_window_x: 0.0
+ * /move_base/GlobalPlanner/planner_window_y: 0.0
+ * /move_base/GlobalPlanner/publish_potential: True
+ * /move_base/GlobalPlanner/publish_scale: 100
+ * /move_base/GlobalPlanner/use_dijkstra: True
+ * /move_base/GlobalPlanner/use_grid_path: False
+ * /move_base/GlobalPlanner/use_quadratic: True
+ * /move_base/NavfnROS/allow_unknown: False
+ * /move_base/NavfnROS/default_tolerance: 0.0
+ * /move_base/NavfnROS/planner_window_x: 0.0
+ * /move_base/NavfnROS/planner_window_y: 0.0
+ * /move_base/NavfnROS/visualize_potential: False
+ * /move_base/base_global_planner: navfn/NavfnROS
+ * /move_base/base_local_planner: dwa_local_planner...
+ * /move_base/controller_frequency: 5.0
+ * /move_base/controller_patience: 3.0
+ * /move_base/global_costmap/global_frame: map
+ * /move_base/global_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/global_costmap/inflation_layer/enabled: True
+ * /move_base/global_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/global_costmap/map_type: voxel
+ * /move_base/global_costmap/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/global_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/global_costmap/obstacle_layer/bump/marking: True
+ * /move_base/global_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/global_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/global_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/global_costmap/obstacle_layer/combination_method: 1
+ * /move_base/global_costmap/obstacle_layer/enabled: True
+ * /move_base/global_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/global_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/global_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/global_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/global_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/global_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/global_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/global_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/global_costmap/obstacle_layer/scan/marking: True
+ * /move_base/global_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/global_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/global_costmap/obstacle_layer/scan/topic: scan
+ * /move_base/global_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/global_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/global_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/global_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/global_costmap/plugins: [{'type': 'costma...
+ * /move_base/global_costmap/publish_frequency: 0.5
+ * /move_base/global_costmap/robot_base_frame: base_footprint
+ * /move_base/global_costmap/robot_radius: 0.2
+ * /move_base/global_costmap/static_layer/enabled: True
+ * /move_base/global_costmap/static_map: True
+ * /move_base/global_costmap/transform_tolerance: 0.5
+ * /move_base/global_costmap/update_frequency: 1.0
+ * /move_base/local_costmap/global_frame: odom
+ * /move_base/local_costmap/height: 4.0
+ * /move_base/local_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/local_costmap/inflation_layer/enabled: True
+ * /move_base/local_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/local_costmap/map_type: voxel
+ * /move_base/local_costmap/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/local_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/local_costmap/obstacle_layer/bump/marking: True
+ * /move_base/local_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/local_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/local_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/local_costmap/obstacle_layer/combination_method: 1
+ * /move_base/local_costmap/obstacle_layer/enabled: True
+ * /move_base/local_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/local_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/local_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/local_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/local_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/local_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/local_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/local_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/local_costmap/obstacle_layer/scan/marking: True
+ * /move_base/local_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/local_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/local_costmap/obstacle_layer/scan/topic: scan
+ * /move_base/l[33m[ WARN] [1512391892.372822001, 9.100000000]: Timed out waiting for transform from base_footprint to map to become available before running costmap, tf error: canTransform: target_frame map does not exist.. canTransform returned after 9.1 timeout was 0.1.[0m
+[0m[ INFO] [1512391893.657502517, 10.380000000]: Using plugin "static_layer"[0m
+[0m[ INFO] [1512391893.695913690, 10.420000000]: Requesting the map...[0m
+[0m[ INFO] [1512391893.893362657, 10.620000000]: Resizing costmap to 231 X 194 at 0.050000 m/pix[0m
+[0m[ INFO] [1512391893.992892896, 10.720000000]: Received a 231 X 194 map at 0.050000 m/pix[0m
+[0m[ INFO] [1512391893.997721945, 10.720000000]: Using plugin "obstacle_layer"[0m
+[0m[ INFO] [1512391894.000228099, 10.720000000]:     Subscribed to Topics: scan bump[0m
+[0m[ INFO] [1512391894.052963965, 10.780000000]: Using plugin "inflation_layer"[0m
+[0m[ INFO] [1512391894.144681014, 10.870000000]: Using plugin "obstacle_layer"[0m
+[0m[ INFO] [1512391894.176353071, 10.900000000]:     Subscribed to Topics: scan bump[0m
+[0m[ INFO] [1512391894.223985385, 10.950000000]: Using plugin "inflation_layer"[0m
+[0m[ INFO] [1512391894.306379026, 11.030000000]: Created local_planner dwa_local_planner/DWAPlannerROS[0m
+[0m[ INFO] [1512391894.310664865, 11.030000000]: Sim period is set to 0.20[0m
+[0m[ INFO] [1512391895.296659827, 12.020000000]: Recovery behavior will clear layer obstacles[0m
+[0m[ INFO] [1512391895.333745392, 12.060000000]: Recovery behavior will clear layer obstacles[0m
+[0m[ INFO] [1512391895.375755090, 12.100000000]: odom received![0m
+... logging to /home/faolin/.ros/log/d1377a5a-d8f1-11e7-8bb0-f82819695d7b/roslaunch-Enryou-13278.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch
+[1mstarted roslaunch server http://10.164.8.225:39779/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    rviz (rviz/rviz)
+
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch http://10.164.8.225:11311/
+core service [/rosout] found
+[1mprocess[rviz-1]: started with pid [13305][0m
+[rviz-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+rosout: no process found
+rosmaster: no process found
+gazebo: no process found
+ocal_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/local_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/local_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/local_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/local_costmap/plugins: [{'type': 'costma...
+ * /move_base/local_costmap/publish_frequency: 2.0
+ * /move_base/local_costmap/resolution: 0.05
+ * /move_base/local_costmap/robot_base_frame: base_footprint
+ * /move_base/local_costmap/robot_radius: 0.2
+ * /move_base/local_costmap/rolling_window: True
+ * /move_base/local_costmap/static_layer/enabled: True
+ * /move_base/local_costmap/static_map: False
+ * /move_base/local_costmap/transform_tolerance: 0.5
+ * /move_base/local_costmap/update_frequency: 5.0
+ * /move_base/local_costmap/width: 4.0
+ * /move_base/oscillation_distance: 0.2
+ * /move_base/oscillation_timeout: 10.0
+ * /move_base/planner_frequency: 1.0
+ * /move_base/planner_patience: 5.0
+ * /move_base/shutdown_costmaps: False
+ * /navigation_velocity_smoother/accel_lim_v: 1.0
+ * /navigation_velocity_smoother/accel_lim_w: 2.0
+ * /navigation_velocity_smoother/decel_factor: 1.5
+ * /navigation_velocity_smoother/frequency: 20.0
+ * /navigation_velocity_smoother/robot_feedback: 2
+ * /navigation_velocity_smoother/speed_lim_v: 0.8
+ * /navigation_velocity_smoother/speed_lim_w: 5.4
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    amcl (amcl/amcl)
+    kobuki_safety_controller (nodelet/nodelet)
+    map_server (map_server/map_server)
+    move_base (move_base/move_base)
+    navigation_velocity_smoother (nodelet/nodelet)
+
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch http://10.164.8.225:11311/
+core service [/rosout] found
+[1mprocess[map_server-1]: started with pid [12116][0m
+[1mprocess[amcl-2]: started with pid [12117][0m
+[1mprocess[navigation_velocity_smoother-3]: started with pid [12119][0m
+[1mprocess[kobuki_safety_controller-4]: started with pid [12135][0m
+[1mprocess[move_base-5]: started with pid [12147][0m
+[move_base-5] killing on exit
+[amcl-2] killing on exit
+[kobuki_safety_controller-4] killing on exit
+[navigation_velocity_smoother-3] killing on exit
+[map_server-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/faolin/.ros/log/d1377a5a-d8f1-11e7-8bb0-f82819695d7b/roslaunch-Enryou-11363.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://10.164.8.225:38985/[0m
+ros_comm version 1.12.7
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [11375][0m
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;roscore http://10.164.8.225:11311/
+[1msetting /run_id to d1377a5a-d8f1-11e7-8bb0-f82819695d7b[0m
+[1mprocess[rosout-1]: started with pid [11388][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+[31m[gazebo-1] escalating to SIGTERM[0m
+... logging to /home/faolin/.ros/log/d1377a5a-d8f1-11e7-8bb0-f82819695d7b/roslaunch-Enryou-11405.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch
+[1mstarted roslaunch server http://10.164.8.225:33987/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /bumper2pointcloud/pointcloud_radius: 0.24
+ * /cmd_vel_mux/yaml_cfg_file: /opt/ros/kinetic/...
+ * /depthimage_to_laserscan/output_frame_id: /camera_depth_frame
+ * /depthimage_to_laserscan/range_min: 0.45
+ * /depthimage_to_laserscan/scan_height: 10
+ * /robot_description: <?xml version="1....
+ * /robot_state_publisher/publish_frequency: 30.0
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+ * /use_sim_time: True
+
+NODES
+  /
+    bumper2pointcloud (nodelet/nodelet)
+    cmd_vel_mux (nodelet/nodelet)
+    depthimage_to_laserscan (nodelet/nodelet)
+    gazebo (gazebo_ros/gzserver)
+    gazebo_gui (gazebo_ros/gzclient)
+    laserscan_nodelet_manager (nodelet/nodelet)
+    mobile_base_nodelet_manager (nodelet/nodelet)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+    spawn_turtlebot_model (gazebo_ros/spawn_model)
+
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch http://10.164.8.225:11311/
+core service [/rosout] found
+[1mprocess[gazebo-1]: started with pid [11427][0m
+[1mprocess[gazebo_gui-2]: started with pid [11432][0m
+[1mprocess[spawn_turtlebot_model-3]: started with pid [11437][0m
+[1mprocess[mobile_base_nodelet_manager-4]: started with pid [11438][0m
+[1mprocess[cmd_vel_mux-5]: started with pid [11439][0m
+[1mprocess[bumper2pointcloud-6]: started with pid [11440][0m
+[1mprocess[robot_state_publisher-7]: started with pid [11448][0m
+[1mprocess[laserscan_nodelet_manager-8]: started with pid [11461][0m
+[1mprocess[depthimage_to_laserscan-9]: started with pid [11464][0m
+[1m[spawn_turtlebot_model-3] process has finished cleanly
+log file: /home/faolin/.ros/log/d1377a5a-d8f1-11e7-8bb0-f82819695d7b/spawn_turtlebot_model-3*.log[0m
+[depthimage_to_laserscan-9] killing on exit
+[cmd_vel_mux-5] killing on exit
+[gazebo_gui-2] killing on exit
+[robot_state_publisher-7] killing on exit
+[bumper2pointcloud-6] killing on exit
+[laserscan_nodelet_manager-8] killing on exit
+[gazebo-1] killing on exit
+[mobile_base_nodelet_manager-4] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+
+
+
+
+#############################################
+Running autostart.sh
+lundi 4 décembre 2017, 13:54:29 (UTC+0100)
+#############################################
+
+Logs:
+warning: xacro: Traditional processing is deprecated. Switch to --inorder processing!
+To check for compatibility of your document, use option --check-order.
+For more infos, see http://wiki.ros.org/xacro#Processing_Order
+warning: xacro.py is deprecated; please use xacro instead
+[31m[ERROR] [1512392083.674234433]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+[31m[ERROR] [1512392083.722635476]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+terminate called after throwing an instance of 'gazebo::common::Exception'
+[0m[ INFO] [1512392083.890704583]: Finished loading Gazebo ROS API Plugin.[0m
+[0m[ INFO] [1512392083.891293373]: waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...[0m
+[0m[ INFO] [1512392084.208992066, 0.030000000]: waitForService: Service [/gazebo/set_physics_properties] is now available.[0m
+[0m[ INFO] [1512392084.236180538, 0.050000000]: Physics dynamic reconfigure ready.[0m
+... logging to /home/faolin/.ros/log/493023ea-d8f2-11e7-8bb0-f82819695d7b/roslaunch-Enryou-14960.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch
+[1mstarted roslaunch server http://10.164.8.225:39783/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /amcl/base_frame_id: base_footprint
+ * /amcl/global_frame_id: map
+ * /amcl/gui_publish_rate: 10.0
+ * /amcl/initial_pose_a: 0.0
+ * /amcl/initial_pose_x: 0.0
+ * /amcl/initial_pose_y: 0.0
+ * /amcl/kld_err: 0.05
+ * /amcl/kld_z: 0.99
+ * /amcl/laser_lambda_short: 0.1
+ * /amcl/laser_likelihood_max_dist: 2.0
+ * /amcl/laser_max_beams: 60
+ * /amcl/laser_max_range: 12.0
+ * /amcl/laser_model_type: likelihood_field
+ * /amcl/laser_sigma_hit: 0.2
+ * /amcl/laser_z_hit: 0.5
+ * /amcl/laser_z_max: 0.05
+ * /amcl/laser_z_rand: 0.5
+ * /amcl/laser_z_short: 0.05
+ * /amcl/max_particles: 2000
+ * /amcl/min_particles: 500
+ * /amcl/odom_alpha1: 0.2
+ * /amcl/odom_alpha2: 0.2
+ * /amcl/odom_alpha3: 0.2
+ * /amcl/odom_alpha4: 0.2
+ * /amcl/odom_alpha5: 0.1
+ * /amcl/odom_frame_id: odom
+ * /amcl/odom_model_type: diff
+ * /amcl/recovery_alpha_fast: 0.0
+ * /amcl/recovery_alpha_slow: 0.0
+ * /amcl/resample_interval: 1
+ * /amcl/transform_tolerance: 1.0
+ * /amcl/update_min_a: 0.2
+ * /amcl/update_min_d: 0.25
+ * /amcl/use_map_topic: False
+ * /move_base/DWAPlannerROS/acc_lim_theta: 2.0
+ * /move_base/DWAPlannerROS/acc_lim_x: 1.0
+ * /move_base/DWAPlannerROS/acc_lim_y: 0.0
+ * /move_base/DWAPlannerROS/forward_point_distance: 0.325
+ * /move_base/DWAPlannerROS/global_frame_id: odom
+ * /move_base/DWAPlannerROS/goal_distance_bias: 24.0
+ * /move_base/DWAPlannerROS/max_rot_vel: 5.0
+ * /move_base/DWAPlannerROS/max_scaling_factor: 0.2
+ * /move_base/DWAPlannerROS/max_trans_vel: 0.5
+ * /move_base/DWAPlannerROS/max_vel_x: 0.5
+ * /move_base/DWAPlannerROS/max_vel_y: 0.0
+ * /move_base/DWAPlannerROS/min_rot_vel: 0.4
+ * /move_base/DWAPlannerROS/min_trans_vel: 0.1
+ * /move_base/DWAPlannerROS/min_vel_x: 0.0
+ * /move_base/DWAPlannerROS/min_vel_y: 0.0
+ * /move_base/DWAPlannerROS/occdist_scale: 0.5
+ * /move_base/DWAPlannerROS/oscillation_reset_dist: 0.05
+ * /move_base/DWAPlannerROS/path_distance_bias: 64.0
+ * /move_base/DWAPlannerROS/publish_cost_grid_pc: True
+ * /move_base/DWAPlannerROS/publish_traj_pc: True
+ * /move_base/DWAPlannerROS/rot_stopped_vel: 0.4
+ * /move_base/DWAPlannerROS/scaling_speed: 0.25
+ * /move_base/DWAPlannerROS/sim_time: 1.0
+ * /move_base/DWAPlannerROS/stop_time_buffer: 0.2
+ * /move_base/DWAPlannerROS/trans_stopped_vel: 0.1
+ * /move_base/DWAPlannerROS/vtheta_samples: 20
+ * /move_base/DWAPlannerROS/vx_samples: 6
+ * /move_base/DWAPlannerROS/vy_samples: 1
+ * /move_base/DWAPlannerROS/xy_goal_tolerance: 0.15
+ * /move_base/DWAPlannerROS/yaw_goal_tolerance: 0.3
+ * /move_base/GlobalPlanner/allow_unknown: True
+ * /move_base/GlobalPlanner/cost_factor: 3.0
+ * /move_base/GlobalPlanner/default_tolerance: 0.0
+ * /move_base/GlobalPlanner/lethal_cost: 253
+ * /move_base/GlobalPlanner/neutral_cost: 50
+ * /move_base/GlobalPlanner/old_navfn_behavior: False
+ * /move_base/GlobalPlanner/planner_costmap_publish_frequency: 0.0
+ * /move_base/GlobalPlanner/planner_window_x: 0.0
+ * /move_base/GlobalPlanner/planner_window_y: 0.0
+ * /move_base/GlobalPlanner/publish_potential: True
+ * /move_base/GlobalPlanner/publish_scale: 100
+ * /move_base/GlobalPlanner/use_dijkstra: True
+ * /move_base/GlobalPlanner/use_grid_path: False
+ * /move_base/GlobalPlanner/use_quadratic: True
+ * /move_base/NavfnROS/allow_unknown: False
+ * /move_base/NavfnROS/default_tolerance: 0.0
+ * /move_base/NavfnROS/planner_window_x: 0.0
+ * /move_base/NavfnROS/planner_window_y: 0.0
+ * /move_base/NavfnROS/visualize_potential: False
+ * /move_base/base_global_planner: navfn/NavfnROS
+ * /move_base/base_local_planner: dwa_local_planner...
+ * /move_base/controller_frequency: 5.0
+ * /move_base/controller_patience: 3.0
+ * /move_base/global_costmap/global_frame: map
+ * /move_base/global_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/global_costmap/inflation_layer/enabled: True
+ * /move_base/global_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/global_costmap/map_type: voxel
+ * /move_base/global_costmap/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/global_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/global_costmap/obstacle_layer/bump/marking: True
+ * /move_base/global_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/global_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/global_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/global_costmap/obstacle_layer/combination_method: 1
+ * /move_base/global_costmap/obstacle_layer/enabled: True
+ * /move_base/global_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/global_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/global_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/global_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/global_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/global_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/global_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/global_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/global_costmap/obstacle_layer/scan/marking: True
+ * /move_base/global_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/global_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/global_costmap/obstacle_layer/scan/topic: scan
+ * /move_base/global_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/global_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/global_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/global_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/global_costmap/plugins: [{'type': 'costma...
+ * /move_base/global_costmap/publish_frequency: 0.5
+ * /move_base/global_costmap/robot_base_frame: base_footprint
+ * /move_base/global_costmap/robot_radius: 0.2
+ * /move_base/global_costmap/static_layer/enabled: True
+ * /move_base/global_costmap/static_map: True
+ * /move_base/global_costmap/transform_tolerance: 0.5
+ * /move_base/global_costmap/update_frequency: 1.0
+ * /move_base/local_costmap/global_frame: odom
+ * /move_base/local_costmap/height: 4.0
+ * /move_base/local_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/local_costmap/inflation_layer/enabled: True
+ * /move_base/local_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/local_costmap/map_type: voxel
+ * /move_base/local_costmap/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/local_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/local_costmap/obstacle_layer/bump/marking: True
+ * /move_base/local_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/local_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/local_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/local_costmap/obstacle_layer/combination_method: 1
+ * /move_base/local_costmap/obstacle_layer/enabled: True
+ * /move_base/local_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/local_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/local_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/local_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/local_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/local_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/local_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/local_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/local_costmap/obstacle_layer/scan/marking: True
+ * /move_base/local_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/local_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/local_costmap/obstacle_layer/scan/topic: scan
+ * /move_base/lTraceback (most recent call last):
+  File "/opt/ros/kinetic/lib/turtlebot_teleop/turtlebot_teleop_key", line 91, in <module>
+    settings = termios.tcgetattr(sys.stdin)
+termios.error: (25, 'Inappropriate ioctl for device')
+[31m[turtlebot_teleop_keyboard-1] process has died [pid 15532, exit code 1, cmd /opt/ros/kinetic/lib/turtlebot_teleop/turtlebot_teleop_key turtlebot_teleop_keyboard/cmd_vel:=cmd_vel_mux/input/teleop __name:=turtlebot_teleop_keyboard __log:=/home/faolin/.ros/log/493023ea-d8f2-11e7-8bb0-f82819695d7b/turtlebot_teleop_keyboard-1.log].
+log file: /home/faolin/.ros/log/493023ea-d8f2-11e7-8bb0-f82819695d7b/turtlebot_teleop_keyboard-1*.log[0m
+... logging to /home/faolin/.ros/log/493023ea-d8f2-11e7-8bb0-f82819695d7b/roslaunch-Enryou-15513.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_teleop/launch/keyboard_teleop.launch
+[1mstarted roslaunch server http://10.164.8.225:43897/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+ * /turtlebot_teleop_keyboard/scale_angular: 1.5
+ * /turtlebot_teleop_keyboard/scale_linear: 0.5
+
+NODES
+  /
+    turtlebot_teleop_keyboard (turtlebot_teleop/turtlebot_teleop_key)
+
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_teleop/launch/keyboard_teleop.launch http://10.164.8.225:11311/
+core service [/rosout] found
+[1mprocess[turtlebot_teleop_keyboard-1]: started with pid [15532][0m
+all processes on machine have died, roslaunch will exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+Aborted (core dumped)
+[31m[gazebo-1] process has died [pid 14443, exit code 134, cmd /opt/ros/kinetic/lib/gazebo_ros/gzserver -e ode /opt/ros/kinetic/share/turtlebot_gazebo/worlds/playground.world __name:=gazebo __log:=/home/faolin/.ros/log/493023ea-d8f2-11e7-8bb0-f82819695d7b/gazebo-1.log].
+log file: /home/faolin/.ros/log/493023ea-d8f2-11e7-8bb0-f82819695d7b/gazebo-1*.log[0m
+[31m[gazebo_gui-2] process has died [pid 14448, exit code 255, cmd /opt/ros/kinetic/lib/gazebo_ros/gzclient __name:=gazebo_gui __log:=/home/faolin/.ros/log/493023ea-d8f2-11e7-8bb0-f82819695d7b/gazebo_gui-2.log].
+log file: /home/faolin/.ros/log/493023ea-d8f2-11e7-8bb0-f82819695d7b/gazebo_gui-2*.log[0m
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/gazebo_ros/spawn_model", line 313, in <module>
+    sm.callSpawnService()
+  File "/opt/ros/kinetic/lib/gazebo_ros/spawn_model", line 289, in callSpawnService
+    rospy.wait_for_service('%s/unpause_physics'%(self.gazebo_namespace))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_service.py", line 159, in wait_for_service
+    raise ROSInterruptException("rospy shutdown")
+rospy.exceptions.ROSInterruptException: rospy shutdown
+... logging to /home/faolin/.ros/log/493023ea-d8f2-11e7-8bb0-f82819695d7b/roslaunch-Enryou-20379.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch
+[1mstarted roslaunch server http://10.164.8.225:33645/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    rviz (rviz/rviz)
+
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch http://10.164.8.225:11311/
+core service [/rosout] found
+[1mprocess[rviz-1]: started with pid [20995][0m
+[rviz-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+rosout: no process found
+rosmaster: no process found
+gazebo: no process found
+... logging to /home/faolin/.ros/log/493023ea-d8f2-11e7-8bb0-f82819695d7b/roslaunch-Enryou-14379.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://10.164.8.225:44165/[0m
+ros_comm version 1.12.7
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [14391][0m
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;roscore http://10.164.8.225:11311/
+[1msetting /run_id to 493023ea-d8f2-11e7-8bb0-f82819695d7b[0m
+[1mprocess[rosout-1]: started with pid [14404][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+[31m[move_base-5] escalating to SIGTERM[0m
+[31m[bumper2pointcloud-6] escalating to SIGTERM[0m
+[31m[mobile_base_nodelet_manager-4] escalating to SIGTERM[0m
+[31m[cmd_vel_mux-5] escalating to SIGTERM[0m
+ocal_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/local_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/local_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/local_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/local_costmap/plugins: [{'type': 'costma...
+ * /move_base/local_costmap/publish_frequency: 2.0
+ * /move_base/local_costmap/resolution: 0.05
+ * /move_base/local_costmap/robot_base_frame: base_footprint
+ * /move_base/local_costmap/robot_radius: 0.2
+ * /move_base/local_costmap/rolling_window: True
+ * /move_base/local_costmap/static_layer/enabled: True
+ * /move_base/local_costmap/static_map: False
+ * /move_base/local_costmap/transform_tolerance: 0.5
+ * /move_base/local_costmap/update_frequency: 5.0
+ * /move_base/local_costmap/width: 4.0
+ * /move_base/oscillation_distance: 0.2
+ * /move_base/oscillation_timeout: 10.0
+ * /move_base/planner_frequency: 1.0
+ * /move_base/planner_patience: 5.0
+ * /move_base/shutdown_costmaps: False
+ * /navigation_velocity_smoother/accel_lim_v: 1.0
+ * /navigation_velocity_smoother/accel_lim_w: 2.0
+ * /navigation_velocity_smoother/decel_factor: 1.5
+ * /navigation_velocity_smoother/frequency: 20.0
+ * /navigation_velocity_smoother/robot_feedback: 2
+ * /navigation_velocity_smoother/speed_lim_v: 0.8
+ * /navigation_velocity_smoother/speed_lim_w: 5.4
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    amcl (amcl/amcl)
+    kobuki_safety_controller (nodelet/nodelet)
+    map_server (map_server/map_server)
+    move_base (move_base/move_base)
+    navigation_velocity_smoother (nodelet/nodelet)
+
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch http://10.164.8.225:11311/
+core service [/rosout] found
+[1mprocess[map_server-1]: started with pid [14979][0m
+[1mprocess[amcl-2]: started with pid [14980][0m
+[1mprocess[navigation_velocity_smoother-3]: started with pid [14981][0m
+[1mprocess[kobuki_safety_controller-4]: started with pid [14997][0m
+[1mprocess[move_base-5]: started with pid [15008][0m
+[move_base-5] killing on exit
+[kobuki_safety_controller-4] killing on exit
+[navigation_velocity_smoother-3] killing on exit
+[amcl-2] killing on exit
+[map_server-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/faolin/.ros/log/493023ea-d8f2-11e7-8bb0-f82819695d7b/roslaunch-Enryou-14421.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch
+[1mstarted roslaunch server http://10.164.8.225:34753/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /bumper2pointcloud/pointcloud_radius: 0.24
+ * /cmd_vel_mux/yaml_cfg_file: /opt/ros/kinetic/...
+ * /depthimage_to_laserscan/output_frame_id: /camera_depth_frame
+ * /depthimage_to_laserscan/range_min: 0.45
+ * /depthimage_to_laserscan/scan_height: 10
+ * /robot_description: <?xml version="1....
+ * /robot_state_publisher/publish_frequency: 30.0
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+ * /use_sim_time: True
+
+NODES
+  /
+    bumper2pointcloud (nodelet/nodelet)
+    cmd_vel_mux (nodelet/nodelet)
+    depthimage_to_laserscan (nodelet/nodelet)
+    gazebo (gazebo_ros/gzserver)
+    gazebo_gui (gazebo_ros/gzclient)
+    laserscan_nodelet_manager (nodelet/nodelet)
+    mobile_base_nodelet_manager (nodelet/nodelet)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+    spawn_turtlebot_model (gazebo_ros/spawn_model)
+
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch http://10.164.8.225:11311/
+core service [/rosout] found
+[1mprocess[gazebo-1]: started with pid [14443][0m
+[1mprocess[gazebo_gui-2]: started with pid [14448][0m
+[1mprocess[spawn_turtlebot_model-3]: started with pid [14453][0m
+[1mprocess[mobile_base_nodelet_manager-4]: started with pid [14454][0m
+[1mprocess[cmd_vel_mux-5]: started with pid [14455][0m
+[1mprocess[bumper2pointcloud-6]: started with pid [14456][0m
+[1mprocess[robot_state_publisher-7]: started with pid [14457][0m
+[1mprocess[laserscan_nodelet_manager-8]: started with pid [14465][0m
+[1mprocess[depthimage_to_laserscan-9]: started with pid [14483][0m
+[depthimage_to_laserscan-9] killing on exit
+[laserscan_nodelet_manager-8] killing on exit
+[robot_state_publisher-7] killing on exit
+[bumper2pointcloud-6] killing on exit
+[mobile_base_nodelet_manager-4] killing on exit
+[cmd_vel_mux-5] killing on exit
+[spawn_turtlebot_model-3] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+
+
+
+
+#############################################
+Running autostart.sh
+lundi 4 décembre 2017, 13:59:27 (UTC+0100)
+#############################################
+
+Logs:
+warning: xacro: Traditional processing is deprecated. Switch to --inorder processing!
+To check for compatibility of your document, use option --check-order.
+For more infos, see http://wiki.ros.org/xacro#Processing_Order
+warning: xacro.py is deprecated; please use xacro instead
+[31m[gazebo-1] process has died [pid 24702, exit code 255, cmd /opt/ros/kinetic/lib/gazebo_ros/gzserver -e ode /opt/ros/kinetic/share/turtlebot_gazebo/worlds/playground.world __name:=gazebo __log:=/home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/gazebo-1.log].
+log file: /home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/gazebo-1*.log[0m
+[31m[ERROR] [1512392382.010180351]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+[31m[ERROR] [1512392382.356599846]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+... logging to /home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/roslaunch-Enryou-25162.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch
+[1mstarted roslaunch server http://10.164.8.225:38603/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /amcl/base_frame_id: base_footprint
+ * /amcl/global_frame_id: map
+ * /amcl/gui_publish_rate: 10.0
+ * /amcl/initial_pose_a: 0.0
+ * /amcl/initial_pose_x: 0.0
+ * /amcl/initial_pose_y: 0.0
+ * /amcl/kld_err: 0.05
+ * /amcl/kld_z: 0.99
+ * /amcl/laser_lambda_short: 0.1
+ * /amcl/laser_likelihood_max_dist: 2.0
+ * /amcl/laser_max_beams: 60
+ * /amcl/laser_max_range: 12.0
+ * /amcl/laser_model_type: likelihood_field
+ * /amcl/laser_sigma_hit: 0.2
+ * /amcl/laser_z_hit: 0.5
+ * /amcl/laser_z_max: 0.05
+ * /amcl/laser_z_rand: 0.5
+ * /amcl/laser_z_short: 0.05
+ * /amcl/max_particles: 2000
+ * /amcl/min_particles: 500
+ * /amcl/odom_alpha1: 0.2
+ * /amcl/odom_alpha2: 0.2
+ * /amcl/odom_alpha3: 0.2
+ * /amcl/odom_alpha4: 0.2
+ * /amcl/odom_alpha5: 0.1
+ * /amcl/odom_frame_id: odom
+ * /amcl/odom_model_type: diff
+ * /amcl/recovery_alpha_fast: 0.0
+ * /amcl/recovery_alpha_slow: 0.0
+ * /amcl/resample_interval: 1
+ * /amcl/transform_tolerance: 1.0
+ * /amcl/update_min_a: 0.2
+ * /amcl/update_min_d: 0.25
+ * /amcl/use_map_topic: False
+ * /move_base/DWAPlannerROS/acc_lim_theta: 2.0
+ * /move_base/DWAPlannerROS/acc_lim_x: 1.0
+ * /move_base/DWAPlannerROS/acc_lim_y: 0.0
+ * /move_base/DWAPlannerROS/forward_point_distance: 0.325
+ * /move_base/DWAPlannerROS/global_frame_id: odom
+ * /move_base/DWAPlannerROS/goal_distance_bias: 24.0
+ * /move_base/DWAPlannerROS/max_rot_vel: 5.0
+ * /move_base/DWAPlannerROS/max_scaling_factor: 0.2
+ * /move_base/DWAPlannerROS/max_trans_vel: 0.5
+ * /move_base/DWAPlannerROS/max_vel_x: 0.5
+ * /move_base/DWAPlannerROS/max_vel_y: 0.0
+ * /move_base/DWAPlannerROS/min_rot_vel: 0.4
+ * /move_base/DWAPlannerROS/min_trans_vel: 0.1
+ * /move_base/DWAPlannerROS/min_vel_x: 0.0
+ * /move_base/DWAPlannerROS/min_vel_y: 0.0
+ * /move_base/DWAPlannerROS/occdist_scale: 0.5
+ * /move_base/DWAPlannerROS/oscillation_reset_dist: 0.05
+ * /move_base/DWAPlannerROS/path_distance_bias: 64.0
+ * /move_base/DWAPlannerROS/publish_cost_grid_pc: True
+ * /move_base/DWAPlannerROS/publish_traj_pc: True
+ * /move_base/DWAPlannerROS/rot_stopped_vel: 0.4
+ * /move_base/DWAPlannerROS/scaling_speed: 0.25
+ * /move_base/DWAPlannerROS/sim_time: 1.0
+ * /move_base/DWAPlannerROS/stop_time_buffer: 0.2
+ * /move_base/DWAPlannerROS/trans_stopped_vel: 0.1
+ * /move_base/DWAPlannerROS/vtheta_samples: 20
+ * /move_base/DWAPlannerROS/vx_samples: 6
+ * /move_base/DWAPlannerROS/vy_samples: 1
+ * /move_base/DWAPlannerROS/xy_goal_tolerance: 0.15
+ * /move_base/DWAPlannerROS/yaw_goal_tolerance: 0.3
+ * /move_base/GlobalPlanner/allow_unknown: True
+ * /move_base/GlobalPlanner/cost_factor: 3.0
+ * /move_base/GlobalPlanner/default_tolerance: 0.0
+ * /move_base/GlobalPlanner/lethal_cost: 253
+ * /move_base/GlobalPlanner/neutral_cost: 50
+ * /move_base/GlobalPlanner/old_navfn_behavior: False
+ * /move_base/GlobalPlanner/planner_costmap_publish_frequency: 0.0
+ * /move_base/GlobalPlanner/planner_window_x: 0.0
+ * /move_base/GlobalPlanner/planner_window_y: 0.0
+ * /move_base/GlobalPlanner/publish_potential: True
+ * /move_base/GlobalPlanner/publish_scale: 100
+ * /move_base/GlobalPlanner/use_dijkstra: True
+ * /move_base/GlobalPlanner/use_grid_path: False
+ * /move_base/GlobalPlanner/use_quadratic: True
+ * /move_base/NavfnROS/allow_unknown: False
+ * /move_base/NavfnROS/default_tolerance: 0.0
+ * /move_base/NavfnROS/planner_window_x: 0.0
+ * /move_base/NavfnROS/planner_window_y: 0.0
+ * /move_base/NavfnROS/visualize_potential: False
+ * /move_base/base_global_planner: navfn/NavfnROS
+ * /move_base/base_local_planner: dwa_local_planner...
+ * /move_base/controller_frequency: 5.0
+ * /move_base/controller_patience: 3.0
+ * /move_base/global_costmap/global_frame: map
+ * /move_base/global_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/global_costmap/inflation_layer/enabled: True
+ * /move_base/global_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/global_costmap/map_type: voxel
+ * /move_base/global_costmap/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/global_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/global_costmap/obstacle_layer/bump/marking: True
+ * /move_base/global_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/global_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/global_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/global_costmap/obstacle_layer/combination_method: 1
+ * /move_base/global_costmap/obstacle_layer/enabled: True
+ * /move_base/global_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/global_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/global_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/global_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/global_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/global_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/global_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/global_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/global_costmap/obstacle_layer/scan/marking: True
+ * /move_base/global_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/global_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/global_costmap/obstacle_layer/scan/topic: scan
+ * /move_base/global_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/global_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/global_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/global_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/global_costmap/plugins: [{'type': 'costma...
+ * /move_base/global_costmap/publish_frequency: 0.5
+ * /move_base/global_costmap/robot_base_frame: base_footprint
+ * /move_base/global_costmap/robot_radius: 0.2
+ * /move_base/global_costmap/static_layer/enabled: True
+ * /move_base/global_costmap/static_map: True
+ * /move_base/global_costmap/transform_tolerance: 0.5
+ * /move_base/global_costmap/update_frequency: 1.0
+ * /move_base/local_costmap/global_frame: odom
+ * /move_base/local_costmap/height: 4.0
+ * /move_base/local_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/local_costmap/inflation_layer/enabled: True
+ * /move_base/local_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/local_costmap/map_type: voxel
+ * /move_base/local_costmap/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/local_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/local_costmap/obstacle_layer/bump/marking: True
+ * /move_base/local_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/local_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/local_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/local_costmap/obstacle_layer/combination_method: 1
+ * /move_base/local_costmap/obstacle_layer/enabled: True
+ * /move_base/local_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/local_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/local_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/local_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/local_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/local_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/local_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/local_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/local_costmap/obstacle_layer/scan/marking: True
+ * /move_base/local_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/local_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/local_costmap/obstacle_layer/scan/topic: scan
+ * /move_base/l
+Control Your Turtlebot!
+---------------------------
+Moving around:
+   u    i    o
+   j    k    l
+   m    ,    .
+
+q/z : increase/decrease max speeds by 10%
+w/x : increase/decrease only linear speed by 10%
+e/c : increase/decrease only angular speed by 10%
+space key, k : force stop
+anything else : stop smoothly
+
+CTRL-C to quit
+
+currently:	speed 0.2	turn 1 
+shutdown request: new node registered with same name
+... logging to /home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/roslaunch-Enryou-26017.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_teleop/launch/keyboard_teleop.launch
+[1mstarted roslaunch server http://10.164.8.225:35311/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+ * /turtlebot_teleop_keyboard/scale_angular: 1.5
+ * /turtlebot_teleop_keyboard/scale_linear: 0.5
+
+NODES
+  /
+    turtlebot_teleop_keyboard (turtlebot_teleop/turtlebot_teleop_key)
+
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_teleop/launch/keyboard_teleop.launch http://10.164.8.225:11311/
+core service [/rosout] found
+[1mprocess[turtlebot_teleop_keyboard-1]: started with pid [26038][0m
+[1m[turtlebot_teleop_keyboard-1] process has finished cleanly
+log file: /home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/turtlebot_teleop_keyboard-1*.log[0m
+all processes on machine have died, roslaunch will exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+gazebo: no process found
+[31m[master] process has died [pid 24650, exit code -15, cmd rosmaster --core -p 11311 -w 3 __log:=/home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/master.log].
+log file: /home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/master*.log[0m
+[31m[rosout-1] process has died [pid 24663, exit code -15, cmd /opt/ros/kinetic/lib/rosout/rosout __name:=rosout __log:=/home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/rosout-1.log].
+log file: /home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/rosout-1*.log[0m
+[31m[ERROR] [1512392582.535577668]: [setParam] Failed to contact master at [10.164.8.225:11311].  Retrying...[0m
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/gazebo_ros/spawn_model", line 313, in <module>
+    sm.callSpawnService()
+  File "/opt/ros/kinetic/lib/gazebo_ros/spawn_model", line 271, in callSpawnService
+    initial_pose, self.reference_frame, self.gazebo_namespace)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/gazebo_ros/gazebo_interface.py", line 28, in spawn_urdf_model_client
+    rospy.wait_for_service(gazebo_namespace+'/spawn_urdf_model')
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_service.py", line 159, in wait_for_service
+    raise ROSInterruptException("rospy shutdown")
+rospy.exceptions.ROSInterruptException: rospy shutdown
+[31m[ERROR] [1512392582.589089570]: [registerService] Failed to contact master at [10.164.8.225:11311].  Retrying...[0m
+... logging to /home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/roslaunch-Enryou-25794.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch
+[1mstarted roslaunch server http://10.164.8.225:45451/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    rviz (rviz/rviz)
+
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch http://10.164.8.225:11311/
+core service [/rosout] found
+[1mprocess[rviz-1]: started with pid [25818][0m
+[rviz-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/roslaunch-Enryou-24680.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch
+[1mstarted roslaunch server http://10.164.8.225:45483/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /bumper2pointcloud/pointcloud_radius: 0.24
+ * /cmd_vel_mux/yaml_cfg_file: /opt/ros/kinetic/...
+ * /depthimage_to_laserscan/output_frame_id: /camera_depth_frame
+ * /depthimage_to_laserscan/range_min: 0.45
+ * /depthimage_to_laserscan/scan_height: 10
+ * /robot_description: <?xml version="1....
+ * /robot_state_publisher/publish_frequency: 30.0
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+ * /use_sim_time: True
+
+NODES
+  /
+    bumper2pointcloud (nodelet/nodelet)
+    cmd_vel_mux (nodelet/nodelet)
+    depthimage_to_laserscan (nodelet/nodelet)
+    gazebo (gazebo_ros/gzserver)
+    gazebo_gui (gazebo_ros/gzclient)
+    laserscan_nodelet_manager (nodelet/nodelet)
+    mobile_base_nodelet_manager (nodelet/nodelet)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+    spawn_turtlebot_model (gazebo_ros/spawn_model)
+
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch http://10.164.8.225:11311/
+core service [/rosout] found
+[1mprocess[gazebo-1]: started with pid [24702][0m
+[1mprocess[gazebo_gui-2]: started with pid [24707][0m
+[1mprocess[spawn_turtlebot_model-3]: started with pid [24746][0m
+[1mprocess[mobile_base_nodelet_manager-4]: started with pid [24766][0m
+[1mprocess[cmd_vel_mux-5]: started with pid [24770][0m
+[1mprocess[bumper2pointcloud-6]: started with pid [24813][0m
+[1mprocess[robot_state_publisher-7]: started with pid [24883][0m
+[1mprocess[laserscan_nodelet_manager-8]: started with pid [24941][0m
+[1mprocess[depthimage_to_laserscan-9]: started with pid [24985][0m
+[depthimage_to_laserscan-9] killing on exit
+[laserscan_nodelet_manager-8] killing on exit
+[robot_state_publisher-7] killing on exit
+[bumper2pointcloud-6] killing on exit
+[cmd_vel_mux-5] killing on exit
+[mobile_base_nodelet_manager-4] killing on exit
+[spawn_turtlebot_model-3] killing on exit
+[gazebo_gui-2] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+[31m[amcl-2] escalating to SIGTERM[0m
+ocal_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/local_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/local_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/local_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/local_costmap/plugins: [{'type': 'costma...
+ * /move_base/local_costmap/publish_frequency: 2.0
+ * /move_base/local_costmap/resolution: 0.05
+ * /move_base/local_costmap/robot_base_frame: base_footprint
+ * /move_base/local_costmap/robot_radius: 0.2
+ * /move_base/local_costmap/rolling_window: True
+ * /move_base/local_costmap/static_layer/enabled: True
+ * /move_base/local_costmap/static_map: False
+ * /move_base/local_costmap/transform_tolerance: 0.5
+ * /move_base/local_costmap/update_frequency: 5.0
+ * /move_base/local_costmap/width: 4.0
+ * /move_base/oscillation_distance: 0.2
+ * /move_base/oscillation_timeout: 10.0
+ * /move_base/planner_frequency: 1.0
+ * /move_base/planner_patience: 5.0
+ * /move_base/shutdown_costmaps: False
+ * /navigation_velocity_smoother/accel_lim_v: 1.0
+ * /navigation_velocity_smoother/accel_lim_w: 2.0
+ * /navigation_velocity_smoother/decel_factor: 1.5
+ * /navigation_velocity_smoother/frequency: 20.0
+ * /navigation_velocity_smoother/robot_feedback: 2
+ * /navigation_velocity_smoother/speed_lim_v: 0.8
+ * /navigation_velocity_smoother/speed_lim_w: 5.4
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    amcl (amcl/amcl)
+    kobuki_safety_controller (nodelet/nodelet)
+    map_server (map_server/map_server)
+    move_base (move_base/move_base)
+    navigation_velocity_smoother (nodelet/nodelet)
+
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch http://10.164.8.225:11311/
+core service [/rosout] found
+[1mprocess[map_server-1]: started with pid [25185][0m
+[1mprocess[amcl-2]: started with pid [25187][0m
+[1mprocess[navigation_velocity_smoother-3]: started with pid [25208][0m
+[1mprocess[kobuki_safety_controller-4]: started with pid [25358][0m
+[1mprocess[move_base-5]: started with pid [25519][0m
+[move_base-5] killing on exit
+[kobuki_safety_controller-4] killing on exit
+[navigation_velocity_smoother-3] killing on exit
+[amcl-2] killing on exit
+[map_server-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+[31m[rosout-1] process has died [pid 27126, exit code -15, cmd /opt/ros/kinetic/lib/rosout/rosout __name:=rosout __log:=/home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/rosout-1.log].
+log file: /home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/rosout-1*.log[0m
+[31m[ERROR] [1512392785.744780978]: [registerService] Failed to contact master at [10.164.8.225:11311].  Retrying...[0m
+
+
+
+
+#############################################
+Running autostart.sh
+lundi 4 décembre 2017, 14:12:59 (UTC+0100)
+#############################################
+
+Logs:
+[31minvalid master URI: localhost[0m
+[31mThe traceback for the exception was written to the log file[0m
+[31minvalid master URI: localhost[0m
+[31mThe traceback for the exception was written to the log file[0m
+[31minvalid master URI: localhost[0m
+[31mThe traceback for the exception was written to the log file[0m
+[31minvalid master URI: localhost[0m
+[31mThe traceback for the exception was written to the log file[0m
+[31minvalid master URI: localhost[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/faolin/.ros/log/facc9728-d8f2-11e7-8bb0-f82819695d7b/roslaunch-Enryou-24638.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://10.164.8.225:37317/[0m
+ros_comm version 1.12.7
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [24650][0m
+[1mROS_MASTER_URI=http://10.164.8.225:11311/[0m
+]2;roscore http://10.164.8.225:11311/
+[1msetting /run_id to facc9728-d8f2-11e7-8bb0-f82819695d7b[0m
+[1mprocess[rosout-1]: started with pid [24663][0m
+started core service [/rosout]
+[rosout-1] restarting process
+[1mprocess[rosout-1]: started with pid [27126][0m
+[rosout-1] restarting process
+[1mprocess[rosout-1]: started with pid [29520][0m
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+
+
+
+
+#############################################
+Running autostart.sh
+dimanche 10 décembre 2017, 12:24:52 (UTC+0100)
+#############################################
+
+Logs:
+... logging to /home/faolin/.ros/log/e4476df8-dd9c-11e7-9dfb-f82819695d7b/roslaunch-Enryou-2542.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_teleop/launch/keyboard_teleop.launch
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/bin/roslaunch", line 35, in <module>
+    roslaunch.main()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 307, in main
+    p.start()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 268, in start
+    self._start_infrastructure()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 226, in _start_infrastructure
+    self._start_server()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 177, in _start_server
+    self.server.start()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/server.py", line 376, in start
+    code, msg, val = ServerProxy(self.uri).get_pid()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 566, in create_connection
+    sock.connect(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+KeyboardInterrupt
+
+
+
+
+#############################################
+Running autostart.sh
+dimanche 10 décembre 2017, 12:26:14 (UTC+0100)
+#############################################
+
+Logs:
+warning: xacro: Traditional processing is deprecated. Switch to --inorder processing!
+To check for compatibility of your document, use option --check-order.
+For more infos, see http://wiki.ros.org/xacro#Processing_Order
+warning: xacro.py is deprecated; please use xacro instead
+warning: xacro: Traditional processing is deprecated. Switch to --inorder processing!
+To check for compatibility of your document, use option --check-order.
+For more infos, see http://wiki.ros.org/xacro#Processing_Order
+warning: xacro.py is deprecated; please use xacro instead
+... logging to /home/faolin/.ros/log/51de8202-dd9d-11e7-9dfb-f82819695d7b/roslaunch-Enryou-2770.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_teleop/launch/keyboard_teleop.launch
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/bin/roslaunch", line 35, in <module>
+    roslaunch.main()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 307, in main
+    p.start()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 268, in start
+    self._start_infrastructure()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 226, in _start_infrastructure
+    self._start_server()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/parent.py", line 177, in _start_server
+    self.server.start()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/server.py", line 376, in start
+    code, msg, val = ServerProxy(self.uri).get_pid()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 566, in create_connection
+    sock.connect(sa)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+KeyboardInterrupt
+[31mUnable to contact my own server at [http://10.164.8.225:41027/].
+This usually means that the network is not configured properly.
+
+A common cause is that the machine cannot ping itself.  Please check
+for errors by running:
+
+	ping 10.164.8.225
+
+For more tips, please see
+
+	http://www.ros.org/wiki/ROS/NetworkSetup
+[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/faolin/.ros/log/1053e336-dd9d-11e7-9dfb-f82819695d7b/roslaunch-Enryou-2488.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[31mUnable to contact my own server at [http://10.164.8.225:39175/].
+This usually means that the network is not configured properly.
+
+A common cause is that the machine cannot ping itself.  Please check
+for errors by running:
+
+	ping 10.164.8.225
+
+For more tips, please see
+
+	http://www.ros.org/wiki/ROS/NetworkSetup
+[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/faolin/.ros/log/13fd4d92-dd9d-11e7-9dfb-f82819695d7b/roslaunch-Enryou-2499.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch
+[31mUnable to contact my own server at [http://10.164.8.225:33749/].
+This usually means that the network is not configured properly.
+
+A common cause is that the machine cannot ping itself.  Please check
+for errors by running:
+
+	ping 10.164.8.225
+
+For more tips, please see
+
+	http://www.ros.org/wiki/ROS/NetworkSetup
+[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/faolin/.ros/log/18df56d4-dd9d-11e7-9dfb-f82819695d7b/roslaunch-Enryou-2531.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch
+[31mUnable to contact my own server at [http://10.164.8.225:44675/].
+This usually means that the network is not configured properly.
+
+A common cause is that the machine cannot ping itself.  Please check
+for errors by running:
+
+	ping 10.164.8.225
+
+For more tips, please see
+
+	http://www.ros.org/wiki/ROS/NetworkSetup
+[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/faolin/.ros/log/1ef9ced2-dd9d-11e7-9dfb-f82819695d7b/roslaunch-Enryou-2538.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch
+[31mUnable to contact my own server at [http://10.164.8.225:35339/].
+This usually means that the network is not configured properly.
+
+A common cause is that the machine cannot ping itself.  Please check
+for errors by running:
+
+	ping 10.164.8.225
+
+For more tips, please see
+
+	http://www.ros.org/wiki/ROS/NetworkSetup
+[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/faolin/.ros/log/4127ca54-dd9d-11e7-9dfb-f82819695d7b/roslaunch-Enryou-2753.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[31mUnable to contact my own server at [http://10.164.8.225:42901/].
+This usually means that the network is not configured properly.
+
+A common cause is that the machine cannot ping itself.  Please check
+for errors by running:
+
+	ping 10.164.8.225
+
+For more tips, please see
+
+	http://www.ros.org/wiki/ROS/NetworkSetup
+[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/faolin/.ros/log/4398c590-dd9d-11e7-9dfb-f82819695d7b/roslaunch-Enryou-2757.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch
+[31mUnable to contact my own server at [http://10.164.8.225:41807/].
+This usually means that the network is not configured properly.
+
+A common cause is that the machine cannot ping itself.  Please check
+for errors by running:
+
+	ping 10.164.8.225
+
+For more tips, please see
+
+	http://www.ros.org/wiki/ROS/NetworkSetup
+[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/faolin/.ros/log/49b351fc-dd9d-11e7-9dfb-f82819695d7b/roslaunch-Enryou-2761.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch
+[31mUnable to contact my own server at [http://10.164.8.225:39739/].
+This usually means that the network is not configured properly.
+
+A common cause is that the machine cannot ping itself.  Please check
+for errors by running:
+
+	ping 10.164.8.225
+
+For more tips, please see
+
+	http://www.ros.org/wiki/ROS/NetworkSetup
+[0m
+[31mThe traceback for the exception was written to the log file[0m
+... logging to /home/faolin/.ros/log/4fcdced2-dd9d-11e7-9dfb-f82819695d7b/roslaunch-Enryou-2766.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch
+
+
+
+
+#############################################
+Running autostart.sh
+dimanche 10 décembre 2017, 12:38:13 (UTC+0100)
+#############################################
+
+Logs:
+warning: xacro: Traditional processing is deprecated. Switch to --inorder processing!
+To check for compatibility of your document, use option --check-order.
+For more infos, see http://wiki.ros.org/xacro#Processing_Order
+warning: xacro.py is deprecated; please use xacro instead
+[31m[ERROR] [1512905902.370422695]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+[31m[ERROR] [1512905902.380362881]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+... logging to /home/faolin/.ros/log/8a8e762e-dd9e-11e7-9dfb-f82819695d7b/roslaunch-Enryou-7574.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch
+[1mstarted roslaunch server http://192.168.178.65:37345/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /amcl/base_frame_id: base_footprint
+ * /amcl/global_frame_id: map
+ * /amcl/gui_publish_rate: 10.0
+ * /amcl/initial_pose_a: 0.0
+ * /amcl/initial_pose_x: 0.0
+ * /amcl/initial_pose_y: 0.0
+ * /amcl/kld_err: 0.05
+ * /amcl/kld_z: 0.99
+ * /amcl/laser_lambda_short: 0.1
+ * /amcl/laser_likelihood_max_dist: 2.0
+ * /amcl/laser_max_beams: 60
+ * /amcl/laser_max_range: 12.0
+ * /amcl/laser_model_type: likelihood_field
+ * /amcl/laser_sigma_hit: 0.2
+ * /amcl/laser_z_hit: 0.5
+ * /amcl/laser_z_max: 0.05
+ * /amcl/laser_z_rand: 0.5
+ * /amcl/laser_z_short: 0.05
+ * /amcl/max_particles: 2000
+ * /amcl/min_particles: 500
+ * /amcl/odom_alpha1: 0.2
+ * /amcl/odom_alpha2: 0.2
+ * /amcl/odom_alpha3: 0.2
+ * /amcl/odom_alpha4: 0.2
+ * /amcl/odom_alpha5: 0.1
+ * /amcl/odom_frame_id: odom
+ * /amcl/odom_model_type: diff
+ * /amcl/recovery_alpha_fast: 0.0
+ * /amcl/recovery_alpha_slow: 0.0
+ * /amcl/resample_interval: 1
+ * /amcl/transform_tolerance: 1.0
+ * /amcl/update_min_a: 0.2
+ * /amcl/update_min_d: 0.25
+ * /amcl/use_map_topic: False
+ * /move_base/DWAPlannerROS/acc_lim_theta: 2.0
+ * /move_base/DWAPlannerROS/acc_lim_x: 1.0
+ * /move_base/DWAPlannerROS/acc_lim_y: 0.0
+ * /move_base/DWAPlannerROS/forward_point_distance: 0.325
+ * /move_base/DWAPlannerROS/global_frame_id: odom
+ * /move_base/DWAPlannerROS/goal_distance_bias: 24.0
+ * /move_base/DWAPlannerROS/max_rot_vel: 5.0
+ * /move_base/DWAPlannerROS/max_scaling_factor: 0.2
+ * /move_base/DWAPlannerROS/max_trans_vel: 0.5
+ * /move_base/DWAPlannerROS/max_vel_x: 0.5
+ * /move_base/DWAPlannerROS/max_vel_y: 0.0
+ * /move_base/DWAPlannerROS/min_rot_vel: 0.4
+ * /move_base/DWAPlannerROS/min_trans_vel: 0.1
+ * /move_base/DWAPlannerROS/min_vel_x: 0.0
+ * /move_base/DWAPlannerROS/min_vel_y: 0.0
+ * /move_base/DWAPlannerROS/occdist_scale: 0.5
+ * /move_base/DWAPlannerROS/oscillation_reset_dist: 0.05
+ * /move_base/DWAPlannerROS/path_distance_bias: 64.0
+ * /move_base/DWAPlannerROS/publish_cost_grid_pc: True
+ * /move_base/DWAPlannerROS/publish_traj_pc: True
+ * /move_base/DWAPlannerROS/rot_stopped_vel: 0.4
+ * /move_base/DWAPlannerROS/scaling_speed: 0.25
+ * /move_base/DWAPlannerROS/sim_time: 1.0
+ * /move_base/DWAPlannerROS/stop_time_buffer: 0.2
+ * /move_base/DWAPlannerROS/trans_stopped_vel: 0.1
+ * /move_base/DWAPlannerROS/vtheta_samples: 20
+ * /move_base/DWAPlannerROS/vx_samples: 6
+ * /move_base/DWAPlannerROS/vy_samples: 1
+ * /move_base/DWAPlannerROS/xy_goal_tolerance: 0.15
+ * /move_base/DWAPlannerROS/yaw_goal_tolerance: 0.3
+ * /move_base/GlobalPlanner/allow_unknown: True
+ * /move_base/GlobalPlanner/cost_factor: 3.0
+ * /move_base/GlobalPlanner/default_tolerance: 0.0
+ * /move_base/GlobalPlanner/lethal_cost: 253
+ * /move_base/GlobalPlanner/neutral_cost: 50
+ * /move_base/GlobalPlanner/old_navfn_behavior: False
+ * /move_base/GlobalPlanner/planner_costmap_publish_frequency: 0.0
+ * /move_base/GlobalPlanner/planner_window_x: 0.0
+ * /move_base/GlobalPlanner/planner_window_y: 0.0
+ * /move_base/GlobalPlanner/publish_potential: True
+ * /move_base/GlobalPlanner/publish_scale: 100
+ * /move_base/GlobalPlanner/use_dijkstra: True
+ * /move_base/GlobalPlanner/use_grid_path: False
+ * /move_base/GlobalPlanner/use_quadratic: True
+ * /move_base/NavfnROS/allow_unknown: False
+ * /move_base/NavfnROS/default_tolerance: 0.0
+ * /move_base/NavfnROS/planner_window_x: 0.0
+ * /move_base/NavfnROS/planner_window_y: 0.0
+ * /move_base/NavfnROS/visualize_potential: False
+ * /move_base/base_global_planner: navfn/NavfnROS
+ * /move_base/base_local_planner: dwa_local_planner...
+ * /move_base/controller_frequency: 5.0
+ * /move_base/controller_patience: 3.0
+ * /move_base/global_costmap/global_frame: map
+ * /move_base/global_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/global_costmap/inflation_layer/enabled: True
+ * /move_base/global_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/global_costmap/map_type: voxel
+ * /move_base/global_costmap/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/global_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/global_costmap/obstacle_layer/bump/marking: True
+ * /move_base/global_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/global_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/global_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/global_costmap/obstacle_layer/combination_method: 1
+ * /move_base/global_costmap/obstacle_layer/enabled: True
+ * /move_base/global_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/global_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/global_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/global_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/global_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/global_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/global_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/global_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/global_costmap/obstacle_layer/scan/marking: True
+ * /move_base/global_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/global_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/global_costmap/obstacle_layer/scan/topic: scan
+ * /move_base/global_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/global_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/global_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/global_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/global_costmap/plugins: [{'type': 'costma...
+ * /move_base/global_costmap/publish_frequency: 0.5
+ * /move_base/global_costmap/robot_base_frame: base_footprint
+ * /move_base/global_costmap/robot_radius: 0.2
+ * /move_base/global_costmap/static_layer/enabled: True
+ * /move_base/global_costmap/static_map: True
+ * /move_base/global_costmap/transform_tolerance: 0.5
+ * /move_base/global_costmap/update_frequency: 1.0
+ * /move_base/local_costmap/global_frame: odom
+ * /move_base/local_costmap/height: 4.0
+ * /move_base/local_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/local_costmap/inflation_layer/enabled: True
+ * /move_base/local_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/local_costmap/map_type: voxel
+ * /move_base/local_costmap/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/local_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/local_costmap/obstacle_layer/bump/marking: True
+ * /move_base/local_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/local_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/local_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/local_costmap/obstacle_layer/combination_method: 1
+ * /move_base/local_costmap/obstacle_layer/enabled: True
+ * /move_base/local_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/local_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/local_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/local_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/local_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/local_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/local_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/local_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/local_costmap/obstacle_layer/scan/marking: True
+ * /move_base/local_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/local_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/local_costmap/obstacle_layer/scan/topic: scan
+ * /move_base/gazebo: no process found
+[31m[ERROR] [1512905921.708819498, 18.600000000]: [setParam] Failed to contact master at [192.168.178.65:11311].  Retrying...[0m
+[33m[ WARN] [1512905912.464715932, 9.360000000]: Timed out waiting for transform from base_footprint to map to become available before running costmap, tf error: canTransform: target_frame map does not exist.. canTransform returned after 9.36 timeout was 0.1.[0m
+[0m[ INFO] [1512905913.657212732, 10.550000000]: Using plugin "static_layer"[0m
+[0m[ INFO] [1512905913.692046921, 10.580000000]: Requesting the map...[0m
+[0m[ INFO] [1512905913.894158004, 10.790000000]: Resizing costmap to 231 X 194 at 0.050000 m/pix[0m
+[0m[ INFO] [1512905913.993806388, 10.890000000]: Received a 231 X 194 map at 0.050000 m/pix[0m
+[0m[ INFO] [1512905913.997558155, 10.890000000]: Using plugin "obstacle_layer"[0m
+[0m[ INFO] [1512905913.999621052, 10.890000000]:     Subscribed to Topics: scan bump[0m
+[0m[ INFO] [1512905914.045325297, 10.940000000]: Using plugin "inflation_layer"[0m
+[0m[ INFO] [1512905914.128351169, 11.020000000]: Using plugin "obstacle_layer"[0m
+[0m[ INFO] [1512905914.157924668, 11.050000000]:     Subscribed to Topics: scan bump[0m
+[0m[ INFO] [1512905914.201164703, 11.090000000]: Using plugin "inflation_layer"[0m
+[0m[ INFO] [1512905914.271120475, 11.160000000]: Created local_planner dwa_local_planner/DWAPlannerROS[0m
+[0m[ INFO] [1512905914.274022801, 11.170000000]: Sim period is set to 0.20[0m
+[0m[ INFO] [1512905915.266372014, 12.160000000]: Recovery behavior will clear layer obstacles[0m
+[0m[ INFO] [1512905915.299316751, 12.190000000]: Recovery behavior will clear layer obstacles[0m
+[0m[ INFO] [1512905915.336325529, 12.230000000]: odom received![0m
+[31m[amcl-2] escalating to SIGTERM[0m
+[31m[gazebo-1] escalating to SIGTERM[0m
+... logging to /home/faolin/.ros/log/8a8e762e-dd9e-11e7-9dfb-f82819695d7b/roslaunch-Enryou-6884.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch
+[1mstarted roslaunch server http://192.168.178.65:35125/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /bumper2pointcloud/pointcloud_radius: 0.24
+ * /cmd_vel_mux/yaml_cfg_file: /opt/ros/kinetic/...
+ * /depthimage_to_laserscan/output_frame_id: /camera_depth_frame
+ * /depthimage_to_laserscan/range_min: 0.45
+ * /depthimage_to_laserscan/scan_height: 10
+ * /robot_description: <?xml version="1....
+ * /robot_state_publisher/publish_frequency: 30.0
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+ * /use_sim_time: True
+
+NODES
+  /
+    bumper2pointcloud (nodelet/nodelet)
+    cmd_vel_mux (nodelet/nodelet)
+    depthimage_to_laserscan (nodelet/nodelet)
+    gazebo (gazebo_ros/gzserver)
+    gazebo_gui (gazebo_ros/gzclient)
+    laserscan_nodelet_manager (nodelet/nodelet)
+    mobile_base_nodelet_manager (nodelet/nodelet)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+    spawn_turtlebot_model (gazebo_ros/spawn_model)
+
+[1mROS_MASTER_URI=http://192.168.178.65:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch http://192.168.178.65:11311/
+core service [/rosout] found
+[1mprocess[gazebo-1]: started with pid [6906][0m
+[1mprocess[gazebo_gui-2]: started with pid [6911][0m
+[1mprocess[spawn_turtlebot_model-3]: started with pid [6916][0m
+[1mprocess[mobile_base_nodelet_manager-4]: started with pid [6917][0m
+[1mprocess[cmd_vel_mux-5]: started with pid [6918][0m
+[1mprocess[bumper2pointcloud-6]: started with pid [6919][0m
+[1mprocess[robot_state_publisher-7]: started with pid [6920][0m
+[1mprocess[laserscan_nodelet_manager-8]: started with pid [6933][0m
+[1mprocess[depthimage_to_laserscan-9]: started with pid [6937][0m
+[1m[spawn_turtlebot_model-3] process has finished cleanly
+log file: /home/faolin/.ros/log/8a8e762e-dd9e-11e7-9dfb-f82819695d7b/spawn_turtlebot_model-3*.log[0m
+[depthimage_to_laserscan-9] killing on exit
+[laserscan_nodelet_manager-8] killing on exit
+[robot_state_publisher-7] killing on exit
+[bumper2pointcloud-6] killing on exit
+[cmd_vel_mux-5] killing on exit
+[mobile_base_nodelet_manager-4] killing on exit
+[gazebo-1] killing on exit
+[gazebo_gui-2] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+local_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/local_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/local_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/local_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/local_costmap/plugins: [{'type': 'costma...
+ * /move_base/local_costmap/publish_frequency: 2.0
+ * /move_base/local_costmap/resolution: 0.05
+ * /move_base/local_costmap/robot_base_frame: base_footprint
+ * /move_base/local_costmap/robot_radius: 0.2
+ * /move_base/local_costmap/rolling_window: True
+ * /move_base/local_costmap/static_layer/enabled: True
+ * /move_base/local_costmap/static_map: False
+ * /move_base/local_costmap/transform_tolerance: 0.5
+ * /move_base/local_costmap/update_frequency: 5.0
+ * /move_base/local_costmap/width: 4.0
+ * /move_base/oscillation_distance: 0.2
+ * /move_base/oscillation_timeout: 10.0
+ * /move_base/planner_frequency: 1.0
+ * /move_base/planner_patience: 5.0
+ * /move_base/shutdown_costmaps: False
+ * /navigation_velocity_smoother/accel_lim_v: 1.0
+ * /navigation_velocity_smoother/accel_lim_w: 2.0
+ * /navigation_velocity_smoother/decel_factor: 1.5
+ * /navigation_velocity_smoother/frequency: 20.0
+ * /navigation_velocity_smoother/robot_feedback: 2
+ * /navigation_velocity_smoother/speed_lim_v: 0.8
+ * /navigation_velocity_smoother/speed_lim_w: 5.4
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    amcl (amcl/amcl)
+    kobuki_safety_controller (nodelet/nodelet)
+    map_server (map_server/map_server)
+    move_base (move_base/move_base)
+    navigation_velocity_smoother (nodelet/nodelet)
+
+[1mROS_MASTER_URI=http://192.168.178.65:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch http://192.168.178.65:11311/
+core service [/rosout] found
+[1mprocess[map_server-1]: started with pid [7595][0m
+[1mprocess[amcl-2]: started with pid [7596][0m
+[1mprocess[navigation_velocity_smoother-3]: started with pid [7597][0m
+[1mprocess[kobuki_safety_controller-4]: started with pid [7611][0m
+[1mprocess[move_base-5]: started with pid [7621][0m
+[move_base-5] killing on exit
+[kobuki_safety_controller-4] killing on exit
+[navigation_velocity_smoother-3] killing on exit
+[amcl-2] killing on exit
+[map_server-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+
+
+
+
+#############################################
+Running autostart.sh
+dimanche 10 décembre 2017, 12:39:33 (UTC+0100)
+#############################################
+
+Logs:
+warning: xacro: Traditional processing is deprecated. Switch to --inorder processing!
+To check for compatibility of your document, use option --check-order.
+For more infos, see http://wiki.ros.org/xacro#Processing_Order
+warning: xacro.py is deprecated; please use xacro instead
+[31m[ERROR] [1512905982.321767121]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+[31m[ERROR] [1512905982.341461951]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+... logging to /home/faolin/.ros/log/cf933ed0-dd9e-11e7-9dfb-f82819695d7b/roslaunch-Enryou-9716.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch
+[1mstarted roslaunch server http://192.168.178.65:38577/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /amcl/base_frame_id: base_footprint
+ * /amcl/global_frame_id: map
+ * /amcl/gui_publish_rate: 10.0
+ * /amcl/initial_pose_a: 0.0
+ * /amcl/initial_pose_x: 0.0
+ * /amcl/initial_pose_y: 0.0
+ * /amcl/kld_err: 0.05
+ * /amcl/kld_z: 0.99
+ * /amcl/laser_lambda_short: 0.1
+ * /amcl/laser_likelihood_max_dist: 2.0
+ * /amcl/laser_max_beams: 60
+ * /amcl/laser_max_range: 12.0
+ * /amcl/laser_model_type: likelihood_field
+ * /amcl/laser_sigma_hit: 0.2
+ * /amcl/laser_z_hit: 0.5
+ * /amcl/laser_z_max: 0.05
+ * /amcl/laser_z_rand: 0.5
+ * /amcl/laser_z_short: 0.05
+ * /amcl/max_particles: 2000
+ * /amcl/min_particles: 500
+ * /amcl/odom_alpha1: 0.2
+ * /amcl/odom_alpha2: 0.2
+ * /amcl/odom_alpha3: 0.2
+ * /amcl/odom_alpha4: 0.2
+ * /amcl/odom_alpha5: 0.1
+ * /amcl/odom_frame_id: odom
+ * /amcl/odom_model_type: diff
+ * /amcl/recovery_alpha_fast: 0.0
+ * /amcl/recovery_alpha_slow: 0.0
+ * /amcl/resample_interval: 1
+ * /amcl/transform_tolerance: 1.0
+ * /amcl/update_min_a: 0.2
+ * /amcl/update_min_d: 0.25
+ * /amcl/use_map_topic: False
+ * /move_base/DWAPlannerROS/acc_lim_theta: 2.0
+ * /move_base/DWAPlannerROS/acc_lim_x: 1.0
+ * /move_base/DWAPlannerROS/acc_lim_y: 0.0
+ * /move_base/DWAPlannerROS/forward_point_distance: 0.325
+ * /move_base/DWAPlannerROS/global_frame_id: odom
+ * /move_base/DWAPlannerROS/goal_distance_bias: 24.0
+ * /move_base/DWAPlannerROS/max_rot_vel: 5.0
+ * /move_base/DWAPlannerROS/max_scaling_factor: 0.2
+ * /move_base/DWAPlannerROS/max_trans_vel: 0.5
+ * /move_base/DWAPlannerROS/max_vel_x: 0.5
+ * /move_base/DWAPlannerROS/max_vel_y: 0.0
+ * /move_base/DWAPlannerROS/min_rot_vel: 0.4
+ * /move_base/DWAPlannerROS/min_trans_vel: 0.1
+ * /move_base/DWAPlannerROS/min_vel_x: 0.0
+ * /move_base/DWAPlannerROS/min_vel_y: 0.0
+ * /move_base/DWAPlannerROS/occdist_scale: 0.5
+ * /move_base/DWAPlannerROS/oscillation_reset_dist: 0.05
+ * /move_base/DWAPlannerROS/path_distance_bias: 64.0
+ * /move_base/DWAPlannerROS/publish_cost_grid_pc: True
+ * /move_base/DWAPlannerROS/publish_traj_pc: True
+ * /move_base/DWAPlannerROS/rot_stopped_vel: 0.4
+ * /move_base/DWAPlannerROS/scaling_speed: 0.25
+ * /move_base/DWAPlannerROS/sim_time: 1.0
+ * /move_base/DWAPlannerROS/stop_time_buffer: 0.2
+ * /move_base/DWAPlannerROS/trans_stopped_vel: 0.1
+ * /move_base/DWAPlannerROS/vtheta_samples: 20
+ * /move_base/DWAPlannerROS/vx_samples: 6
+ * /move_base/DWAPlannerROS/vy_samples: 1
+ * /move_base/DWAPlannerROS/xy_goal_tolerance: 0.15
+ * /move_base/DWAPlannerROS/yaw_goal_tolerance: 0.3
+ * /move_base/GlobalPlanner/allow_unknown: True
+ * /move_base/GlobalPlanner/cost_factor: 3.0
+ * /move_base/GlobalPlanner/default_tolerance: 0.0
+ * /move_base/GlobalPlanner/lethal_cost: 253
+ * /move_base/GlobalPlanner/neutral_cost: 50
+ * /move_base/GlobalPlanner/old_navfn_behavior: False
+ * /move_base/GlobalPlanner/planner_costmap_publish_frequency: 0.0
+ * /move_base/GlobalPlanner/planner_window_x: 0.0
+ * /move_base/GlobalPlanner/planner_window_y: 0.0
+ * /move_base/GlobalPlanner/publish_potential: True
+ * /move_base/GlobalPlanner/publish_scale: 100
+ * /move_base/GlobalPlanner/use_dijkstra: True
+ * /move_base/GlobalPlanner/use_grid_path: False
+ * /move_base/GlobalPlanner/use_quadratic: True
+ * /move_base/NavfnROS/allow_unknown: False
+ * /move_base/NavfnROS/default_tolerance: 0.0
+ * /move_base/NavfnROS/planner_window_x: 0.0
+ * /move_base/NavfnROS/planner_window_y: 0.0
+ * /move_base/NavfnROS/visualize_potential: False
+ * /move_base/base_global_planner: navfn/NavfnROS
+ * /move_base/base_local_planner: dwa_local_planner...
+ * /move_base/controller_frequency: 5.0
+ * /move_base/controller_patience: 3.0
+ * /move_base/global_costmap/global_frame: map
+ * /move_base/global_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/global_costmap/inflation_layer/enabled: True
+ * /move_base/global_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/global_costmap/map_type: voxel
+ * /move_base/global_costmap/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/global_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/global_costmap/obstacle_layer/bump/marking: True
+ * /move_base/global_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/global_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/global_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/global_costmap/obstacle_layer/combination_method: 1
+ * /move_base/global_costmap/obstacle_layer/enabled: True
+ * /move_base/global_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/global_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/global_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/global_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/global_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/global_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/global_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/global_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/global_costmap/obstacle_layer/scan/marking: True
+ * /move_base/global_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/global_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/global_costmap/obstacle_layer/scan/topic: scan
+ * /move_base/global_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/global_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/global_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/global_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/global_costmap/plugins: [{'type': 'costma...
+ * /move_base/global_costmap/publish_frequency: 0.5
+ * /move_base/global_costmap/robot_base_frame: base_footprint
+ * /move_base/global_costmap/robot_radius: 0.2
+ * /move_base/global_costmap/static_layer/enabled: True
+ * /move_base/global_costmap/static_map: True
+ * /move_base/global_costmap/transform_tolerance: 0.5
+ * /move_base/global_costmap/update_frequency: 1.0
+ * /move_base/local_costmap/global_frame: odom
+ * /move_base/local_costmap/height: 4.0
+ * /move_base/local_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/local_costmap/inflation_layer/enabled: True
+ * /move_base/local_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/local_costmap/map_type: voxel
+ * /move_base/local_costmap/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/local_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/local_costmap/obstacle_layer/bump/marking: True
+ * /move_base/local_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/local_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/local_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/local_costmap/obstacle_layer/combination_method: 1
+ * /move_base/local_costmap/obstacle_layer/enabled: True
+ * /move_base/local_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/local_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/local_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/local_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/local_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/local_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/local_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/local_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/local_costmap/obstacle_layer/scan/marking: True
+ * /move_base/local_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/local_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/local_costmap/obstacle_layer/scan/topic: scan
+ * /move_base/[33m[ WARN] [1512905992.149235834, 9.070000000]: Timed out waiting for transform from base_footprint to map to become available before running costmap, tf error: canTransform: target_frame map does not exist.. canTransform returned after 9.07 timeout was 0.1.[0m
+[0m[ INFO] [1512905993.332897859, 10.250000000]: Using plugin "static_layer"[0m
+[0m[ INFO] [1512905993.366652091, 10.280000000]: Requesting the map...[0m
+[0m[ INFO] [1512905993.560198213, 10.480000000]: Resizing costmap to 231 X 194 at 0.050000 m/pix[0m
+[0m[ INFO] [1512905993.660706460, 10.580000000]: Received a 231 X 194 map at 0.050000 m/pix[0m
+[0m[ INFO] [1512905993.665263657, 10.580000000]: Using plugin "obstacle_layer"[0m
+[0m[ INFO] [1512905993.667654332, 10.580000000]:     Subscribed to Topics: scan bump[0m
+[0m[ INFO] [1512905993.712976358, 10.630000000]: Using plugin "inflation_layer"[0m
+[0m[ INFO] [1512905993.795399232, 10.710000000]: Using plugin "obstacle_layer"[0m
+[0m[ INFO] [1512905993.827060985, 10.740000000]:     Subscribed to Topics: scan bump[0m
+[0m[ INFO] [1512905993.868161127, 10.780000000]: Using plugin "inflation_layer"[0m
+[0m[ INFO] [1512905993.947214785, 10.860000000]: Created local_planner dwa_local_planner/DWAPlannerROS[0m
+[0m[ INFO] [1512905993.950152706, 10.870000000]: Sim period is set to 0.20[0m
+[0m[ INFO] [1512905994.934072933, 11.850000000]: Recovery behavior will clear layer obstacles[0m
+[0m[ INFO] [1512905994.969072399, 11.880000000]: Recovery behavior will clear layer obstacles[0m
+[0m[ INFO] [1512905995.004657565, 11.920000000]: odom received![0m
+... logging to /home/faolin/.ros/log/cf933ed0-dd9e-11e7-9dfb-f82819695d7b/roslaunch-Enryou-10936.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch
+[1mstarted roslaunch server http://192.168.178.65:40561/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    rviz (rviz/rviz)
+
+[1mROS_MASTER_URI=http://192.168.178.65:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch http://192.168.178.65:11311/
+core service [/rosout] found
+[1mprocess[rviz-1]: started with pid [10956][0m
+[rviz-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+gazebo: no process found
+local_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/local_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/local_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/local_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/local_costmap/plugins: [{'type': 'costma...
+ * /move_base/local_costmap/publish_frequency: 2.0
+ * /move_base/local_costmap/resolution: 0.05
+ * /move_base/local_costmap/robot_base_frame: base_footprint
+ * /move_base/local_costmap/robot_radius: 0.2
+ * /move_base/local_costmap/rolling_window: True
+ * /move_base/local_costmap/static_layer/enabled: True
+ * /move_base/local_costmap/static_map: False
+ * /move_base/local_costmap/transform_tolerance: 0.5
+ * /move_base/local_costmap/update_frequency: 5.0
+ * /move_base/local_costmap/width: 4.0
+ * /move_base/oscillation_distance: 0.2
+ * /move_base/oscillation_timeout: 10.0
+ * /move_base/planner_frequency: 1.0
+ * /move_base/planner_patience: 5.0
+ * /move_base/shutdown_costmaps: False
+ * /navigation_velocity_smoother/accel_lim_v: 1.0
+ * /navigation_velocity_smoother/accel_lim_w: 2.0
+ * /navigation_velocity_smoother/decel_factor: 1.5
+ * /navigation_velocity_smoother/frequency: 20.0
+ * /navigation_velocity_smoother/robot_feedback: 2
+ * /navigation_velocity_smoother/speed_lim_v: 0.8
+ * /navigation_velocity_smoother/speed_lim_w: 5.4
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    amcl (amcl/amcl)
+    kobuki_safety_controller (nodelet/nodelet)
+    map_server (map_server/map_server)
+    move_base (move_base/move_base)
+    navigation_velocity_smoother (nodelet/nodelet)
+
+[1mROS_MASTER_URI=http://192.168.178.65:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch http://192.168.178.65:11311/
+core service [/rosout] found
+[1mprocess[map_server-1]: started with pid [9737][0m
+[1mprocess[amcl-2]: started with pid [9738][0m
+[1mprocess[navigation_velocity_smoother-3]: started with pid [9740][0m
+[1mprocess[kobuki_safety_controller-4]: started with pid [9754][0m
+[1mprocess[move_base-5]: started with pid [9765][0m
+[move_base-5] killing on exit
+[kobuki_safety_controller-4] killing on exit
+[navigation_velocity_smoother-3] killing on exit
+[amcl-2] killing on exit
+[map_server-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+[31m[mobile_base_nodelet_manager-4] escalating to SIGTERM[0m
+[31m[gazebo-1] escalating to SIGTERM[0m
+[31m[bumper2pointcloud-6] escalating to SIGTERM[0m
+[31m[cmd_vel_mux-5] escalating to SIGTERM[0m
+... logging to /home/faolin/.ros/log/cf933ed0-dd9e-11e7-9dfb-f82819695d7b/roslaunch-Enryou-8922.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch
+[1mstarted roslaunch server http://192.168.178.65:45547/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /bumper2pointcloud/pointcloud_radius: 0.24
+ * /cmd_vel_mux/yaml_cfg_file: /opt/ros/kinetic/...
+ * /depthimage_to_laserscan/output_frame_id: /camera_depth_frame
+ * /depthimage_to_laserscan/range_min: 0.45
+ * /depthimage_to_laserscan/scan_height: 10
+ * /robot_description: <?xml version="1....
+ * /robot_state_publisher/publish_frequency: 30.0
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+ * /use_sim_time: True
+
+NODES
+  /
+    bumper2pointcloud (nodelet/nodelet)
+    cmd_vel_mux (nodelet/nodelet)
+    depthimage_to_laserscan (nodelet/nodelet)
+    gazebo (gazebo_ros/gzserver)
+    gazebo_gui (gazebo_ros/gzclient)
+    laserscan_nodelet_manager (nodelet/nodelet)
+    mobile_base_nodelet_manager (nodelet/nodelet)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+    spawn_turtlebot_model (gazebo_ros/spawn_model)
+
+auto-starting new master
+[1mprocess[master]: started with pid [9015][0m
+[1mROS_MASTER_URI=http://192.168.178.65:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch http://192.168.178.65:11311/
+[1msetting /run_id to cf933ed0-dd9e-11e7-9dfb-f82819695d7b[0m
+core service [/rosout] found
+[1mprocess[gazebo-1]: started with pid [9041][0m
+[1mprocess[gazebo_gui-2]: started with pid [9046][0m
+[1mprocess[spawn_turtlebot_model-3]: started with pid [9051][0m
+[1mprocess[mobile_base_nodelet_manager-4]: started with pid [9052][0m
+[1mprocess[cmd_vel_mux-5]: started with pid [9053][0m
+[1mprocess[bumper2pointcloud-6]: started with pid [9054][0m
+[1mprocess[robot_state_publisher-7]: started with pid [9055][0m
+[1mprocess[laserscan_nodelet_manager-8]: started with pid [9062][0m
+[1mprocess[depthimage_to_laserscan-9]: started with pid [9073][0m
+[1m[spawn_turtlebot_model-3] process has finished cleanly
+log file: /home/faolin/.ros/log/cf933ed0-dd9e-11e7-9dfb-f82819695d7b/spawn_turtlebot_model-3*.log[0m
+[depthimage_to_laserscan-9] killing on exit
+[laserscan_nodelet_manager-8] killing on exit
+[cmd_vel_mux-5] killing on exit
+[bumper2pointcloud-6] killing on exit
+[mobile_base_nodelet_manager-4] killing on exit
+[robot_state_publisher-7] killing on exit
+[gazebo_gui-2] killing on exit
+[gazebo-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+
+
+
+
+#############################################
+Running autostart.sh
+dimanche 10 décembre 2017, 12:42:58 (UTC+0100)
+#############################################
+
+Logs:
+warning: xacro: Traditional processing is deprecated. Switch to --inorder processing!
+To check for compatibility of your document, use option --check-order.
+For more infos, see http://wiki.ros.org/xacro#Processing_Order
+warning: xacro.py is deprecated; please use xacro instead
+[31m[ERROR] [1512906197.072200329]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+[31m[ERROR] [1512906197.106837492]: Skipping XML Document "/opt/ros/kinetic/share/gmapping/nodelet_plugins.xml" which had no Root Element.  This likely means the XML is malformed or missing.[0m
+... logging to /home/faolin/.ros/log/49c32a08-dd9f-11e7-9dfb-f82819695d7b/roslaunch-Enryou-12711.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch
+[1mstarted roslaunch server http://192.168.178.65:42133/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /amcl/base_frame_id: base_footprint
+ * /amcl/global_frame_id: map
+ * /amcl/gui_publish_rate: 10.0
+ * /amcl/initial_pose_a: 0.0
+ * /amcl/initial_pose_x: 0.0
+ * /amcl/initial_pose_y: 0.0
+ * /amcl/kld_err: 0.05
+ * /amcl/kld_z: 0.99
+ * /amcl/laser_lambda_short: 0.1
+ * /amcl/laser_likelihood_max_dist: 2.0
+ * /amcl/laser_max_beams: 60
+ * /amcl/laser_max_range: 12.0
+ * /amcl/laser_model_type: likelihood_field
+ * /amcl/laser_sigma_hit: 0.2
+ * /amcl/laser_z_hit: 0.5
+ * /amcl/laser_z_max: 0.05
+ * /amcl/laser_z_rand: 0.5
+ * /amcl/laser_z_short: 0.05
+ * /amcl/max_particles: 2000
+ * /amcl/min_particles: 500
+ * /amcl/odom_alpha1: 0.2
+ * /amcl/odom_alpha2: 0.2
+ * /amcl/odom_alpha3: 0.2
+ * /amcl/odom_alpha4: 0.2
+ * /amcl/odom_alpha5: 0.1
+ * /amcl/odom_frame_id: odom
+ * /amcl/odom_model_type: diff
+ * /amcl/recovery_alpha_fast: 0.0
+ * /amcl/recovery_alpha_slow: 0.0
+ * /amcl/resample_interval: 1
+ * /amcl/transform_tolerance: 1.0
+ * /amcl/update_min_a: 0.2
+ * /amcl/update_min_d: 0.25
+ * /amcl/use_map_topic: False
+ * /move_base/DWAPlannerROS/acc_lim_theta: 2.0
+ * /move_base/DWAPlannerROS/acc_lim_x: 1.0
+ * /move_base/DWAPlannerROS/acc_lim_y: 0.0
+ * /move_base/DWAPlannerROS/forward_point_distance: 0.325
+ * /move_base/DWAPlannerROS/global_frame_id: odom
+ * /move_base/DWAPlannerROS/goal_distance_bias: 24.0
+ * /move_base/DWAPlannerROS/max_rot_vel: 5.0
+ * /move_base/DWAPlannerROS/max_scaling_factor: 0.2
+ * /move_base/DWAPlannerROS/max_trans_vel: 0.5
+ * /move_base/DWAPlannerROS/max_vel_x: 0.5
+ * /move_base/DWAPlannerROS/max_vel_y: 0.0
+ * /move_base/DWAPlannerROS/min_rot_vel: 0.4
+ * /move_base/DWAPlannerROS/min_trans_vel: 0.1
+ * /move_base/DWAPlannerROS/min_vel_x: 0.0
+ * /move_base/DWAPlannerROS/min_vel_y: 0.0
+ * /move_base/DWAPlannerROS/occdist_scale: 0.5
+ * /move_base/DWAPlannerROS/oscillation_reset_dist: 0.05
+ * /move_base/DWAPlannerROS/path_distance_bias: 64.0
+ * /move_base/DWAPlannerROS/publish_cost_grid_pc: True
+ * /move_base/DWAPlannerROS/publish_traj_pc: True
+ * /move_base/DWAPlannerROS/rot_stopped_vel: 0.4
+ * /move_base/DWAPlannerROS/scaling_speed: 0.25
+ * /move_base/DWAPlannerROS/sim_time: 1.0
+ * /move_base/DWAPlannerROS/stop_time_buffer: 0.2
+ * /move_base/DWAPlannerROS/trans_stopped_vel: 0.1
+ * /move_base/DWAPlannerROS/vtheta_samples: 20
+ * /move_base/DWAPlannerROS/vx_samples: 6
+ * /move_base/DWAPlannerROS/vy_samples: 1
+ * /move_base/DWAPlannerROS/xy_goal_tolerance: 0.15
+ * /move_base/DWAPlannerROS/yaw_goal_tolerance: 0.3
+ * /move_base/GlobalPlanner/allow_unknown: True
+ * /move_base/GlobalPlanner/cost_factor: 3.0
+ * /move_base/GlobalPlanner/default_tolerance: 0.0
+ * /move_base/GlobalPlanner/lethal_cost: 253
+ * /move_base/GlobalPlanner/neutral_cost: 50
+ * /move_base/GlobalPlanner/old_navfn_behavior: False
+ * /move_base/GlobalPlanner/planner_costmap_publish_frequency: 0.0
+ * /move_base/GlobalPlanner/planner_window_x: 0.0
+ * /move_base/GlobalPlanner/planner_window_y: 0.0
+ * /move_base/GlobalPlanner/publish_potential: True
+ * /move_base/GlobalPlanner/publish_scale: 100
+ * /move_base/GlobalPlanner/use_dijkstra: True
+ * /move_base/GlobalPlanner/use_grid_path: False
+ * /move_base/GlobalPlanner/use_quadratic: True
+ * /move_base/NavfnROS/allow_unknown: False
+ * /move_base/NavfnROS/default_tolerance: 0.0
+ * /move_base/NavfnROS/planner_window_x: 0.0
+ * /move_base/NavfnROS/planner_window_y: 0.0
+ * /move_base/NavfnROS/visualize_potential: False
+ * /move_base/base_global_planner: navfn/NavfnROS
+ * /move_base/base_local_planner: dwa_local_planner...
+ * /move_base/controller_frequency: 5.0
+ * /move_base/controller_patience: 3.0
+ * /move_base/global_costmap/global_frame: map
+ * /move_base/global_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/global_costmap/inflation_layer/enabled: True
+ * /move_base/global_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/global_costmap/map_type: voxel
+ * /move_base/global_costmap/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/global_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/global_costmap/obstacle_layer/bump/marking: True
+ * /move_base/global_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/global_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/global_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/global_costmap/obstacle_layer/combination_method: 1
+ * /move_base/global_costmap/obstacle_layer/enabled: True
+ * /move_base/global_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/global_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/global_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/global_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/global_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/global_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/global_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/global_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/global_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/global_costmap/obstacle_layer/scan/marking: True
+ * /move_base/global_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/global_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/global_costmap/obstacle_layer/scan/topic: scan
+ * /move_base/global_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/global_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/global_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/global_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/global_costmap/plugins: [{'type': 'costma...
+ * /move_base/global_costmap/publish_frequency: 0.5
+ * /move_base/global_costmap/robot_base_frame: base_footprint
+ * /move_base/global_costmap/robot_radius: 0.2
+ * /move_base/global_costmap/static_layer/enabled: True
+ * /move_base/global_costmap/static_map: True
+ * /move_base/global_costmap/transform_tolerance: 0.5
+ * /move_base/global_costmap/update_frequency: 1.0
+ * /move_base/local_costmap/global_frame: odom
+ * /move_base/local_costmap/height: 4.0
+ * /move_base/local_costmap/inflation_layer/cost_scaling_factor: 5.0
+ * /move_base/local_costmap/inflation_layer/enabled: True
+ * /move_base/local_costmap/inflation_layer/inflation_radius: 0.5
+ * /move_base/local_costmap/map_type: voxel
+ * /move_base/local_costmap/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/bump/clearing: False
+ * /move_base/local_costmap/obstacle_layer/bump/data_type: PointCloud2
+ * /move_base/local_costmap/obstacle_layer/bump/marking: True
+ * /move_base/local_costmap/obstacle_layer/bump/max_obstacle_height: 0.15
+ * /move_base/local_costmap/obstacle_layer/bump/min_obstacle_height: 0.0
+ * /move_base/local_costmap/obstacle_layer/bump/topic: mobile_base/senso...
+ * /move_base/local_costmap/obstacle_layer/combination_method: 1
+ * /move_base/local_costmap/obstacle_layer/enabled: True
+ * /move_base/local_costmap/obstacle_layer/mark_threshold: 0
+ * /move_base/local_costmap/obstacle_layer/max_obstacle_height: 0.6
+ * /move_base/local_costmap/obstacle_layer/observation_sources: scan bump
+ * /move_base/local_costmap/obstacle_layer/obstacle_range: 2.5
+ * /move_base/local_costmap/obstacle_layer/origin_z: 0.0
+ * /move_base/local_costmap/obstacle_layer/publish_voxel_map: False
+ * /move_base/local_costmap/obstacle_layer/raytrace_range: 3.0
+ * /move_base/local_costmap/obstacle_layer/scan/clearing: True
+ * /move_base/local_costmap/obstacle_layer/scan/data_type: LaserScan
+ * /move_base/local_costmap/obstacle_layer/scan/marking: True
+ * /move_base/local_costmap/obstacle_layer/scan/max_obstacle_height: 0.35
+ * /move_base/local_costmap/obstacle_layer/scan/min_obstacle_height: 0.25
+ * /move_base/local_costmap/obstacle_layer/scan/topic: scan
+ * /move_base
+Control Your Turtlebot!
+---------------------------
+Moving around:
+   u    i    o
+   j    k    l
+   m    ,    .
+
+q/z : increase/decrease max speeds by 10%
+w/x : increase/decrease only linear speed by 10%
+e/c : increase/decrease only angular speed by 10%
+space key, k : force stop
+anything else : stop smoothly
+
+CTRL-C to quit
+
+currently:	speed 0.2	turn 1 
+... logging to /home/faolin/.ros/log/49c32a08-dd9f-11e7-9dfb-f82819695d7b/roslaunch-Enryou-14107.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_teleop/launch/keyboard_teleop.launch
+[1mstarted roslaunch server http://192.168.178.65:40135/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+ * /turtlebot_teleop_keyboard/scale_angular: 1.5
+ * /turtlebot_teleop_keyboard/scale_linear: 0.5
+
+NODES
+  /
+    turtlebot_teleop_keyboard (turtlebot_teleop/turtlebot_teleop_key)
+
+[1mROS_MASTER_URI=http://192.168.178.65:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_teleop/launch/keyboard_teleop.launch http://192.168.178.65:11311/
+core service [/rosout] found
+[1mprocess[turtlebot_teleop_keyboard-1]: started with pid [14127][0m
+[1m[turtlebot_teleop_keyboard-1] process has finished cleanly
+log file: /home/faolin/.ros/log/49c32a08-dd9f-11e7-9dfb-f82819695d7b/turtlebot_teleop_keyboard-1*.log[0m
+all processes on machine have died, roslaunch will exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+gazebo: no process found
+[31m[master] process has died [pid 12019, exit code -15, cmd rosmaster --core -p 11311 -w 3 __log:=/home/faolin/.ros/log/49c32a08-dd9f-11e7-9dfb-f82819695d7b/master.log].
+log file: /home/faolin/.ros/log/49c32a08-dd9f-11e7-9dfb-f82819695d7b/master*.log[0m
+[31m[ERROR] [1512906279.764304879, 81.900000000]: [setParam] Failed to contact master at [192.168.178.65:11311].  Retrying...[0m
+[33m[ WARN] [1512906202.855570457, 5.040000000]: Timed out waiting for transform from base_footprint to map to become available before running costmap, tf error: Lookup would require extrapolation into the past.  Requested time 5.040000000 but the earliest data is at time 5.520000000, when looking up transform from frame [base_footprint] to frame [map]. canTransform returned after 0.1 timeout was 0.1.[0m
+[0m[ INFO] [1512906203.338654136, 5.520000000]: Using plugin "static_layer"[0m
+[0m[ INFO] [1512906203.370887455, 5.550000000]: Requesting the map...[0m
+[0m[ INFO] [1512906203.565722389, 5.750000000]: Resizing costmap to 231 X 194 at 0.050000 m/pix[0m
+[0m[ INFO] [1512906203.665797530, 5.850000000]: Received a 231 X 194 map at 0.050000 m/pix[0m
+[0m[ INFO] [1512906203.670182416, 5.850000000]: Using plugin "obstacle_layer"[0m
+[0m[ INFO] [1512906203.672230397, 5.850000000]:     Subscribed to Topics: scan bump[0m
+[0m[ INFO] [1512906203.716233708, 5.900000000]: Using plugin "inflation_layer"[0m
+[0m[ INFO] [1512906203.801302107, 5.980000000]: Using plugin "obstacle_layer"[0m
+[0m[ INFO] [1512906203.828951958, 6.010000000]:     Subscribed to Topics: scan bump[0m
+[0m[ INFO] [1512906203.870876815, 6.050000000]: Using plugin "inflation_layer"[0m
+[0m[ INFO] [1512906203.941794072, 6.120000000]: Created local_planner dwa_local_planner/DWAPlannerROS[0m
+[0m[ INFO] [1512906203.945155086, 6.130000000]: Sim period is set to 0.20[0m
+[0m[ INFO] [1512906204.929059743, 7.110000000]: Recovery behavior will clear layer obstacles[0m
+[0m[ INFO] [1512906204.960421582, 7.140000000]: Recovery behavior will clear layer obstacles[0m
+[0m[ INFO] [1512906204.996483164, 7.180000000]: odom received![0m
+... logging to /home/faolin/.ros/log/49c32a08-dd9f-11e7-9dfb-f82819695d7b/roslaunch-Enryou-12007.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://192.168.178.65:32987/[0m
+ros_comm version 1.12.7
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [12019][0m
+[1mROS_MASTER_URI=http://192.168.178.65:11311/[0m
+]2;roscore http://192.168.178.65:11311/
+[1msetting /run_id to 49c32a08-dd9f-11e7-9dfb-f82819695d7b[0m
+core service [/rosout] found
+all processes on machine have died, roslaunch will exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+... logging to /home/faolin/.ros/log/49c32a08-dd9f-11e7-9dfb-f82819695d7b/roslaunch-Enryou-13887.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch
+[1mstarted roslaunch server http://192.168.178.65:33125/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    rviz (rviz/rviz)
+
+[1mROS_MASTER_URI=http://192.168.178.65:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_rviz_launchers/launch/view_navigation.launch http://192.168.178.65:11311/
+core service [/rosout] found
+[1mprocess[rviz-1]: started with pid [13914][0m
+[rviz-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+[31m[gazebo-1] escalating to SIGTERM[0m
+[31m[amcl-2] escalating to SIGTERM[0m
+... logging to /home/faolin/.ros/log/49c32a08-dd9f-11e7-9dfb-f82819695d7b/roslaunch-Enryou-12047.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch
+[1mstarted roslaunch server http://192.168.178.65:40839/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /bumper2pointcloud/pointcloud_radius: 0.24
+ * /cmd_vel_mux/yaml_cfg_file: /opt/ros/kinetic/...
+ * /depthimage_to_laserscan/output_frame_id: /camera_depth_frame
+ * /depthimage_to_laserscan/range_min: 0.45
+ * /depthimage_to_laserscan/scan_height: 10
+ * /robot_description: <?xml version="1....
+ * /robot_state_publisher/publish_frequency: 30.0
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+ * /use_sim_time: True
+
+NODES
+  /
+    bumper2pointcloud (nodelet/nodelet)
+    cmd_vel_mux (nodelet/nodelet)
+    depthimage_to_laserscan (nodelet/nodelet)
+    gazebo (gazebo_ros/gzserver)
+    gazebo_gui (gazebo_ros/gzclient)
+    laserscan_nodelet_manager (nodelet/nodelet)
+    mobile_base_nodelet_manager (nodelet/nodelet)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+    spawn_turtlebot_model (gazebo_ros/spawn_model)
+
+[1mROS_MASTER_URI=http://192.168.178.65:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/turtlebot_world.launch http://192.168.178.65:11311/
+core service [/rosout] found
+[1mprocess[gazebo-1]: started with pid [12069][0m
+[1mprocess[gazebo_gui-2]: started with pid [12074][0m
+[1mprocess[spawn_turtlebot_model-3]: started with pid [12079][0m
+[1mprocess[mobile_base_nodelet_manager-4]: started with pid [12080][0m
+[1mprocess[cmd_vel_mux-5]: started with pid [12081][0m
+[1mprocess[bumper2pointcloud-6]: started with pid [12082][0m
+[1mprocess[robot_state_publisher-7]: started with pid [12089][0m
+[1mprocess[laserscan_nodelet_manager-8]: started with pid [12112][0m
+[1mprocess[depthimage_to_laserscan-9]: started with pid [12118][0m
+[1m[spawn_turtlebot_model-3] process has finished cleanly
+log file: /home/faolin/.ros/log/49c32a08-dd9f-11e7-9dfb-f82819695d7b/spawn_turtlebot_model-3*.log[0m
+[depthimage_to_laserscan-9] killing on exit
+[laserscan_nodelet_manager-8] killing on exit
+[robot_state_publisher-7] killing on exit
+[bumper2pointcloud-6] killing on exit
+[gazebo_gui-2] killing on exit
+[cmd_vel_mux-5] killing on exit
+[mobile_base_nodelet_manager-4] killing on exit
+[gazebo-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+/local_costmap/obstacle_layer/track_unknown_space: True
+ * /move_base/local_costmap/obstacle_layer/unknown_threshold: 15
+ * /move_base/local_costmap/obstacle_layer/z_resolution: 0.2
+ * /move_base/local_costmap/obstacle_layer/z_voxels: 2
+ * /move_base/local_costmap/plugins: [{'type': 'costma...
+ * /move_base/local_costmap/publish_frequency: 2.0
+ * /move_base/local_costmap/resolution: 0.05
+ * /move_base/local_costmap/robot_base_frame: base_footprint
+ * /move_base/local_costmap/robot_radius: 0.2
+ * /move_base/local_costmap/rolling_window: True
+ * /move_base/local_costmap/static_layer/enabled: True
+ * /move_base/local_costmap/static_map: False
+ * /move_base/local_costmap/transform_tolerance: 0.5
+ * /move_base/local_costmap/update_frequency: 5.0
+ * /move_base/local_costmap/width: 4.0
+ * /move_base/oscillation_distance: 0.2
+ * /move_base/oscillation_timeout: 10.0
+ * /move_base/planner_frequency: 1.0
+ * /move_base/planner_patience: 5.0
+ * /move_base/shutdown_costmaps: False
+ * /navigation_velocity_smoother/accel_lim_v: 1.0
+ * /navigation_velocity_smoother/accel_lim_w: 2.0
+ * /navigation_velocity_smoother/decel_factor: 1.5
+ * /navigation_velocity_smoother/frequency: 20.0
+ * /navigation_velocity_smoother/robot_feedback: 2
+ * /navigation_velocity_smoother/speed_lim_v: 0.8
+ * /navigation_velocity_smoother/speed_lim_w: 5.4
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    amcl (amcl/amcl)
+    kobuki_safety_controller (nodelet/nodelet)
+    map_server (map_server/map_server)
+    move_base (move_base/move_base)
+    navigation_velocity_smoother (nodelet/nodelet)
+
+[1mROS_MASTER_URI=http://192.168.178.65:11311/[0m
+]2;/opt/ros/kinetic/share/turtlebot_gazebo/launch/amcl_demo.launch http://192.168.178.65:11311/
+core service [/rosout] found
+[1mprocess[map_server-1]: started with pid [12731][0m
+[1mprocess[amcl-2]: started with pid [12732][0m
+[1mprocess[navigation_velocity_smoother-3]: started with pid [12733][0m
+[1mprocess[kobuki_safety_controller-4]: started with pid [12744][0m
+[1mprocess[move_base-5]: started with pid [12757][0m
+[move_base-5] killing on exit
+[kobuki_safety_controller-4] killing on exit
+[amcl-2] killing on exit
+[map_server-1] killing on exit
+[navigation_velocity_smoother-3] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
